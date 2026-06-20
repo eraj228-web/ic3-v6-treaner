@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>IC3 GMetrix Dynamic Trainer</title>
+    <style>
+        :root {
+            --primary: #0277bd;
+            --primary-hover: #01579b;
+            --success: #2e7d32;
+            --error: #c62828;
+            --bg: #f5f7fa;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --text-light: #666666;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; -webkit-user-select: none; }
+        body { background-color: var(--bg); color: var(--text); display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 15px; }
+        .container { width: 100%; max-width: 500px; background: var(--card-bg); padding: 25px; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+        
+        .screen { display: none; }
+        .active { display: block; }
+        h2 { text-align: center; margin-bottom: 20px; color: var(--primary); }
+        .info-text { font-size: 14px; color: var(--text-light); text-align: center; margin-bottom: 20px; }
+        .device-id { font-weight: bold; color: #d32f2f; background: #ffebee; padding: 8px; border-radius: 6px; display: inline-block; margin-top: 5px; }
+        input[type="text"] { width: 100%; padding: 12px; margin-bottom: 15px; border: 2px solid #ccc; border-radius: 8px; font-size: 16px; text-align: center; }
+        input[type="text"]:focus { border-color: var(--primary); outline: none; }
+        button { width: 100%; padding: 14px; background: var(--primary); color: white; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; cursor: pointer; transition: background 0.2s; }
+        button:hover { background: var(--primary-hover); }
+        
+        .level-btn { background: #fff; color: var(--text); border: 2px solid #e0e0e0; margin-bottom: 12px; text-align: left; transition: all 0.2s; }
+        .level-btn:hover:not(:disabled) { border-color: var(--primary); background: #e1f5fe; }
+        .level-btn:disabled { background: #ebebeb; color: #aaa; cursor: not-allowed; }
+
+        .top-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+        .lang-switch button { width: auto; padding: 6px 12px; font-size: 12px; background: #e0e0e0; color: #333; margin-left: 5px; border-radius: 4px; }
+        .lang-switch button.active-lang { background: var(--primary); color: white; }
+        
+        .question-text { font-size: 17px; font-weight: 600; margin-bottom: 15px; line-height: 1.4; color: #1a237e; }
+        .option-btn { width: 100%; display: block; background: #fff; color: var(--text); border: 1px solid #ccc; text-align: left; margin-bottom: 10px; padding: 12px; border-radius: 8px; font-size: 15px; transition: all 0.1s; }
+        .option-btn:hover:not(:disabled) { background: #f0f4f8; border-color: var(--primary); }
+        
+        .correct { background: #e8f5e9 !important; border-color: var(--success) !important; color: var(--success) !important; font-weight: bold; }
+        .wrong { background: #ffebee !important; border-color: var(--error) !important; color: var(--error) !important; }
+        
+        .translate-btn { background: #f57c00; margin-top: 10px; margin-bottom: 15px; }
+        .translate-btn:hover { background: #e65100; }
+        
+        .explanation-box { background: #fff8e1; border-left: 4px solid #ffb300; padding: 12px; border-radius: 4px; margin-top: 15px; display: none; font-size: 14px; line-height: 1.4; color: #5d4037; }
+        .loading-text { text-align: center; color: var(--primary); font-weight: bold; padding: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id="activation-screen" class="screen active">
+        <h2>🔒 IC3 GMetrix</h2>
+        <p class="info-text">Для доступа к симулятору отправьте ваш ID преподавателю:<br>
+           <span id="display-id" class="device-id">Генерация...</span>
+        </p>
+        <input type="text" id="activation-key" placeholder="Введите ключ доступа" autocomplete="off">
+        <button onclick="verifyKey()">Активировать / Aktivatsiya</button>
+    </div>
+
+    <div id="menu-screen" class="screen">
+        <h2>Выберите уровень IC3</h2>
+        <div id="menu-buttons-container">
+            <button class="level-btn" onclick="startTest(1)">🚀 Модуль 1: Computing Fundamentals</button>
+            <button class="level-btn" onclick="startTest(2)">🚀 Модуль 2: Key Applications</button>
+            <button class="level-btn" onclick="startTest(3)">🚀 Модуль 3: Living Online</button>
+        </div>
+    </div>
+
+    <div id="test-screen" class="screen">
+        <div class="top-bar">
+            <span id="progress">Вопрос 1 из 45</span>
+            <div class="lang-switch">
+                <button id="btn-ru" class="active-lang" onclick="setLanguage('RU')">RU</button>
+                <button id="btn-en" onclick="setLanguage('ENG')">ENG</button>
+            </div>
+        </div>
+        
+        <div id="question-box" class="question-text">Текст вопроса</div>
+        <div id="options-box"></div>
+        
+        <button class="translate-btn" onclick="toggleUzbekTranslation()">🇺🇿 Перевод / Tarjima</button>
+        <div id="explanation-box" class="explanation-box"></div>
+        <button id="next-btn" style="display:none; margin-top:15px; background:#00bfa5;" onclick="nextQuestion()">Следующий вопрос ➡️</button>
+    </div>
+</div>
+
+<script>
+    // 1. СИСТЕМА ЗАЩИТЫ И КЛЮЧЕЙ
+    let generatedID = "";
+    function generateDeviceID() {
+        if(!localStorage.getItem('device_id')){
+            let id = "IC3-" + Math.floor(1000 + Math.random() * 9000) + "-UZ";
+            localStorage.setItem('device_id', id);
+        }
+        generatedID = localStorage.getItem('device_id');
+        document.getElementById('display-id').innerText = generatedID;
+    }
+    generateDeviceID();
+
+    function verifyKey() {
+        const inputKey = document.getElementById('activation-key').value.trim();
+        if (inputKey === "PRO-TEACHER-IC3-MASTER" || inputKey === "IC3-JUNE-2026") {
+            document.getElementById('activation-screen').classList.remove('active');
+            document.getElementById('menu-screen').classList.add('active');
+        } else {
+            alert("🔒 Неверный код активации! / Kod noto'g'ri!");
+        }
+    }
+
+    // 2. ДВИЖОК ТЕСТИРОВАНИЯ И ЗАГРУЗКИ ИЗ JSON В СЕТИ
+    let database = [];
+    let currentQuestions = [];
+    let currentQuestionIndex = 0;
+    let currentLang = 'RU';
+    let isUzbekActive = false;
+
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    // Универсальная функция для сравнения массивов (для вопросов с множественным выбором)
+    function arraysEqual(a, b) {
+        if (a === b) return true;
+        if (a == null || b == null) return false;
+        if (a.length !== b.length) return false;
+        let sortedA = [...a].sort();
+        let sortedB = [...b].sort();
+        for (let i = 0; i < sortedA.length; ++i) {
+            if (sortedA[i] !== sortedB[i]) return false;
+        }
+        return true;
+    }
+
+    async function startTest(levelNum) {
+        const container = document.getElementById('menu-buttons-container');
+        const originalContent = container.innerHTML;
+        
+        container.innerHTML = `<div class="loading-text">Загрузка базы данных левела ${levelNum}... <br> Файлы подгружаются из локальной директории.</div>`;
+        
+        try {
+            const response = await fetch(`level_${levelNum}.json`);
+            if (!response.ok) {
+                throw new Error(`Файл level_${levelNum}.json не найден в папке с симулятором.`);
+            }
+            
+            database = await response.json();
+            
+            // Фильтруем пул вопросов под текущий уровень
+            let pool = database.filter(item => item.level === levelNum);
+            
+            // Перемешиваем и отбираем максимум 45 вопросов
+            shuffle(pool);
+            currentQuestions = pool.slice(0, 45);
+            currentQuestionIndex = 0;
+            
+            // Восстанавливаем меню на случай возврата в него в конце теста
+            container.innerHTML = originalContent;
+            
+            // Переключаем экраны
+            document.getElementById('menu-screen').classList.remove('active');
+            document.getElementById('test-screen').classList.add('active');
+            
+            showQuestion();
+            
+        } catch (error) {
+            console.error(error);
+            alert(`⚠️ Ошибка работы с JSON-базой:\n${error.message}\n\nРешение: Запустите HTML-файл через локальный сервер (например, VS Code Live Server).`);
+            container.innerHTML = originalContent;
+        }
+    }
+
+    function showQuestion() {
+        isUzbekActive = false;
+        document.getElementById('explanation-box').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'none';
+        
+        let qData = currentQuestions[currentQuestionIndex];
+        document.getElementById('progress').innerText = `Вопрос ${currentQuestionIndex + 1} из ${currentQuestions.length}`;
+        
+        updateQuestionText();
+        
+        let optionsBox = document.getElementById('options-box');
+        optionsBox.innerHTML = "";
+        
+        // Определяем язык отображения вариантов
+        let origOptions = currentLang === 'RU' ? qData.options_ru : qData.options_en;
+        
+        // Корректно обрабатываем как одиночные индексы (числа), так и массивы правильных индексов
+        let correctIndices = Array.isArray(qData.answer_idx) ? qData.answer_idx : [qData.answer_idx];
+        
+        // Формируем внутренний размеченный массив вариантов
+        let mappedOptions = origOptions.map((opt, idx) => {
+            return { text: opt, isCorrect: correctIndices.includes(idx), originalIdx: idx };
+        });
+        
+        // Перемешиваем варианты для интерактива
+        shuffle(mappedOptions);
+        
+        // Если вопрос имеет множественный выбор (массив правильных ответов)
+        if (correctIndices.length > 1) {
+            let selectedIndices = [];
+            
+            // Добавляем инфо-плашку, чтобы студент знал, что нужно выбрать несколько вариантов
+            let alertInfo = document.createElement('div');
+            alertInfo.style.cssText = "font-size:12px; color:#e65100; margin-bottom:10px; font-weight:bold; text-align:center;";
+            alertInfo.innerText = currentLang === 'RU' ? `Потребуется выбрать несколько ответов (${correctIndices.length})` : `Multiple options choice required (${correctIndices.length})`;
+            optionsBox.appendChild(alertInfo);
+
+            mappedOptions.forEach(opt => {
+                let btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerText = opt.text;
+                
+                btn.onclick = function() {
+                    if (selectedIndices.includes(opt.originalIdx)) {
+                        selectedIndices = selectedIndices.filter(id => id !== opt.originalIdx);
+                        this.style.border = "1px solid #ccc";
+                        this.style.background = "#fff";
+                    } else {
+                        if (selectedIndices.length < correctIndices.length) {
+                            selectedIndices.push(opt.originalIdx);
+                            this.style.border = "2px solid var(--primary)";
+                            this.style.background = "#e1f5fe";
+                        }
+                    }
+                    
+                    // Если набрано нужное количество галочек — проверяем
+                    if (selectedIndices.length === correctIndices.length) {
+                        let allButtons = optionsBox.querySelectorAll('.option-btn');
+                        allButtons.forEach(b => b.disabled = true);
+                        
+                        let isFullyCorrect = arraysEqual(selectedIndices, correctIndices);
+                        evaluateMultiChoiceResult(allButtons, mappedOptions, correctIndices, isFullyCorrect);
+                    }
+                };
+                optionsBox.appendChild(btn);
+            });
+        } else {
+            // Классический одиночный выбор
+            mappedOptions.forEach(opt => {
+                let btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerText = opt.text;
+                btn.onclick = function() { checkSingleAnswer(this, opt.isCorrect); };
+                optionsBox.appendChild(btn);
+            });
+        }
+    }
+
+    function checkSingleAnswer(selectedBtn, isCorrect) {
+        let buttons = document.querySelectorAll('.option-btn');
+        buttons.forEach(btn => btn.disabled = true);
+        
+        let qData = currentQuestions[currentQuestionIndex];
+        let correctIdx = Array.isArray(qData.answer_idx) ? qData.answer_idx[0] : qData.answer_idx;
+        let origOptions = currentLang === 'RU' ? qData.options_ru : qData.options_en;
+        let correctText = origOptions[correctIdx];
+        
+        if (isCorrect) {
+            selectedBtn.classList.add('correct');
+        } else {
+            selectedBtn.classList.add('wrong');
+            buttons.forEach(btn => {
+                if (btn.innerText === correctText) {
+                    btn.classList.add('correct');
+                }
+            });
+        }
+        
+        showExplanationAndNext();
+    }
+
+    function evaluateMultiChoiceResult(allButtons, mappedOptions, correctIndices, isFullyCorrect) {
+        let qData = currentQuestions[currentQuestionIndex];
+        let origOptions = currentLang === 'RU' ? qData.options_ru : qData.options_en;
+        
+        allButtons.forEach(btn => {
+            // Находим какой оригинальный индекс был у этой кнопки
+            let foundOpt = mappedOptions.find(o => o.text === btn.innerText);
+            if (foundOpt) {
+                if (correctIndices.includes(foundOpt.originalIdx)) {
+                    btn.classList.add('correct');
+                } else if (btn.style.background === "rgb(225, 245, 254)") { // Была выбрана неверно
+                    btn.classList.add('wrong');
+                }
+            }
+        });
+        
+        showExplanationAndNext();
+    }
+
+    function showExplanationAndNext() {
+        let qData = currentQuestions[currentQuestionIndex];
+        let expBox = document.getElementById('explanation-box');
+        expBox.innerText = qData.explanation;
+        expBox.style.display = 'block';
+        document.getElementById('next-btn').style.display = 'block';
+    }
+
+    function updateQuestionText() {
+        let qData = currentQuestions[currentQuestionIndex];
+        let qBox = document.getElementById('question-box');
+        
+        if (isUzbekActive) {
+            qBox.innerText = qData.q_uz;
+        } else {
+            qBox.innerText = currentLang === 'RU' ? qData.q_ru : qData.q_en;
+        }
+    }
+
+    function setLanguage(lang) {
+        currentLang = lang;
+        document.getElementById('btn-ru').classList.remove('active-lang');
+        document.getElementById('btn-en').classList.remove('active-lang');
+        if(lang === 'RU') document.getElementById('btn-ru').classList.add('active-lang');
+        if(lang === 'ENG') document.getElementById('btn-en').classList.add('active-lang');
+        updateQuestionText();
+    }
+
+    function toggleUzbekTranslation() {
+        isUzbekActive = !isUzbekActive;
+        updateQuestionText();
+    }
+
+    function nextQuestion() {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < currentQuestions.length) {
+            showQuestion();
+        } else {
+            alert("🎉 Тест успешно пройден! Все сценарии и каверзные вопросы текущего уровня изучены.");
+            document.getElementById('test-screen').classList.remove('active');
+            document.getElementById('menu-screen').classList.add('active');
+        }
+    }
+</script>
+
+</body>
+</html>

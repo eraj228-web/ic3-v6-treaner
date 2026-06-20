@@ -1,0 +1,1145 @@
+[
+  {
+    "level": 1,
+    "id": 312341,
+    "q_ru": "Какое из следующих устройств используется для долговременного хранения данных, даже когда компьютер выключен?",
+    "q_en": "Which of the following devices is used for long-term data storage, even when the computer is turned off?",
+    "q_uz": "Kompyuter o'chirilgan holatda ham ma'lumotlarni uzoq vaqt saqlash uchun quyidagi qurilmalardan qaysi biri ishlatiladi?",
+    "options_ru": [
+      "Оперативная память (RAM)",
+      "Жесткий диск (HDD/SSD)",
+      "Процессор (CPU)",
+      "Материнская плата"
+    ],
+    "options_en": [
+      "Random Access Memory (RAM)",
+      "Hard Disk Drive (HDD/SSD)",
+      "Central Processing Unit (CPU)",
+      "Motherboard"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Tezkor xotira (RAM) kompyuter o'chganda ma'lumotni o'chirib yuboradi. Qattiq disk (HDD/SSD) esa ma'lumotlarni doimiy va uzoq muddatli saqlash uchun xizmat qiladi."
+  },
+  {
+    "level": 1,
+    "id": 312342,
+    "q_ru": "Что из перечисленного является операционной системой?",
+    "q_en": "Which of the following is an operating system?",
+    "q_uz": "Quyidagilardan qaysi biri operatsion tizim hisoblanadi?",
+    "options_ru": [
+      "Google Chrome",
+      "Microsoft Windows",
+      "Adobe Photoshop",
+      "Microsoft Office"
+    ],
+    "options_en": [
+      "Google Chrome",
+      "Microsoft Windows",
+      "Adobe Photoshop",
+      "Microsoft Office"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Google Chrome — bu brauzer, Photoshop va Office — amaliy dasturlar. Microsoft Windows esa kompyuter resurslarini boshqaruvchi asosiy operatsion tizimdir."
+  },
+  {
+    "level": 1,
+    "id": 312343,
+    "q_ru": "Какое сочетание клавиш используется для копирования выделенного текста в большинстве операционных систем?",
+    "q_en": "Which keyboard shortcut is used to copy selected text in most operating systems?",
+    "q_uz": "Ko'pchilik operatsion tizimlarda tanlangan matndan nusxa olish (copy) uchun qaysi tugmalar kombinatsiyasi ishlatiladi?",
+    "options_ru": [
+      "Ctrl + X",
+      "Ctrl + V",
+      "Ctrl + C",
+      "Ctrl + Z"
+    ],
+    "options_en": [
+      "Ctrl + X",
+      "Ctrl + V",
+      "Ctrl + C",
+      "Ctrl + Z"
+    ],
+    "answer_idx": 2,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Ctrl+C nusxa oladi (Copy), Ctrl+X qirqib oladi (Cut), Ctrl+V joylashtiradi (Paste), Ctrl+Z esa amalni ortga qaytaradi (Undo)."
+  },
+  {
+    "level": 1,
+    "id": 312344,
+    "q_ru": "Какое из следующих расширений файлов обычно указывает на исполняемую программу в Windows?",
+    "q_en": "Which of the following file extensions typically indicates an executable program in Windows?",
+    "q_uz": "Windows tizimida quyidagi fayl kengaytmalardan qaysi biri odatda ishga tushiriladigan dasturni (executable program) bildiradi?",
+    "options_ru": [
+      ".txt",
+      ".exe",
+      ".jpg",
+      ".mp3"
+    ],
+    "options_en": [
+      ".txt",
+      ".exe",
+      ".jpg",
+      ".mp3"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• .txt — matn, .jpg — rasm, .mp3 — audio fayl. .exe (executable) esa Windows'da dasturlarni ishga tushiruvchi asosiy kengaytmadir."
+  },
+  {
+    "level": 1,
+    "id": 312345,
+    "q_ru": "Что означает аббревиатура URL?",
+    "q_en": "What does the abbreviation URL stand for?",
+    "q_uz": "URL qisqartmasining ma'nosi nima?",
+    "options_ru": [
+      "Uniform Resource Locator",
+      "Universal Resource Link",
+      "United Resource Locator",
+      "Uniform Research Link"
+    ],
+    "options_en": [
+      "Uniform Resource Locator",
+      "Universal Resource Link",
+      "United Resource Locator",
+      "Uniform Research Link"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• URL — bu internetdagi har qanday resursning (veb-sayt sahifasi, rasm, fayl) aniq manzilini ko'rsatuvchi 'Uniform Resource Locator' standartidir."
+  },
+  {
+    "level": 1,
+    "id": 312346,
+    "q_ru": "Какая служба используется для преобразования понятных человеку доменных имен (например, google.com) в IP-адреса?",
+    "q_en": "Which service is used to convert human-readable domain names (e.g., google.com) into IP addresses?",
+    "q_uz": "Inson tushunadigan domen nomlarini (masalan, google.com) IP-manzillarga aylantirish uchun qaysi xizmatdan foydalaniladi?",
+    "options_ru": [
+      "HTTP",
+      "FTP",
+      "DNS",
+      "DHCP"
+    ],
+    "options_en": [
+      "HTTP",
+      "FTP",
+      "DNS",
+      "DHCP"
+    ],
+    "answer_idx": 2,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• DNS (Domain Name System) — internetning manzillar kitobi bo'lib, har qanday domen nomini kompyuter tushunadigan IP-manzilga o'girib beradi."
+  },
+  {
+    "level": 1,
+    "id": 312347,
+    "q_ru": "Какая из следующих компьютерных сетей является самой крупной и глобальной?",
+    "q_en": "Which of the following computer networks is the largest and most global?",
+    "q_uz": "Quyidagi kompyuter tarmoqlaridan qaysi biri eng yirik va global hisoblanadi?",
+    "options_ru": [
+      "LAN (Локальная сеть)",
+      "WAN (Глобальная сеть) / Интернет",
+      "PAN (Персональная сеть)",
+      "MAN (Городская сеть)"
+    ],
+    "options_en": [
+      "LAN (Local Area Network)",
+      "WAN (Wide Area Network) / Internet",
+      "PAN (Personal Area Network)",
+      "MAN (Metropolitan Area Network)"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• LAN — bir xona yoki bino ichidagi kichik tarmoq. WAN (Wide Area Network), ya'ni Internet — butun dunyoni bog'lab turuvchi eng ulkan global tarmoqdir."
+  },
+  {
+    "level": 1,
+    "id": 312348,
+    "q_ru": "Что из перечисленного является надежной практикой создания безопасного пароля?",
+    "q_en": "Which of the following is a solid practice for creating a secure password?",
+    "q_uz": "Xavfsiz va kuchli parol yaratish uchun quyidagilardan qaysi biri eng to'g'ri amaliyot hisoblanadi?",
+    "options_ru": [
+      "Использование своего имени и года рождения.",
+      "Использование комбинации прописных и строчных букв, цифр и специальных символов.",
+      "Использование одного и того же пароля для всех учетных записей.",
+      "Использование слова 'password123'."
+    ],
+    "options_en": [
+      "Using your name and year of birth.",
+      "Using a combination of uppercase and lowercase letters, numbers, and special characters.",
+      "Using the same password for all accounts.",
+      "Using the word 'password123'."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Kuchli parol kamida 8 ta belgidan iborat bo'lishi, o'z ichiga katta-kichik harflar, raqamlar va belgilarni (!@#$) olishi lozim."
+  },
+  {
+    "level": 1,
+    "id": 312349,
+    "q_ru": "Какое устройство защищает внутреннюю сеть от несанкционированного доступа из Интернета, фильтруя входящий и исходящий трафик?",
+    "q_en": "Which device protects an internal network from unauthorized access from the Internet by filtering incoming and outgoing traffic?",
+    "q_uz": "Kiruvchi va chiquvchi trafikni filtrlash orqali ichki tarmoqni internetdagi ruxsatsiz kirishlardan qaysi qurilma/dastur himoya qiladi?",
+    "options_ru": [
+      "Коммутатор (Switch)",
+      "Брандмауэр / Межсетевой экран (Firewall)",
+      "Концентратор (Hub)",
+      "Модем"
+    ],
+    "options_en": [
+      "Switch",
+      "Firewall",
+      "Hub",
+      "Modem"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Firewall (Брандмауэр) — tarmoq xavfsizligi devori bo'lib, u qoidalarga asosan zararli trafikni to'sadi va tizimni buzib kirishlardan asraydi."
+  },
+  {
+    "level": 1,
+    "id": 312350,
+    "q_ru": "Что такое облачное хранилище данных (Cloud Storage)?",
+    "q_en": "What is cloud data storage?",
+    "q_uz": "Bulutli ma'lumotlar ombori (Cloud Storage) nima?",
+    "options_ru": [
+      "Хранение файлов исключительно на жестком диске вашего домашнего компьютера.",
+      "Модель хранения данных, при которой данные содержатся, управляются и резервируются удаленно через Интернет.",
+      "Физическое устройство, которое подключается к роутеру через кабель.",
+      "Программа для очистки ненужных файлов и кэша браузера."
+    ],
+    "options_en": [
+      "Storing files exclusively on the hard drive of your home computer.",
+      "A data storage model where data is maintained, managed, and backed up remotely over the Internet.",
+      "A physical device that connects to a router via cable.",
+      "A program for cleaning up junk files and browser cache."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Bulutli xotira (masalan, Google Drive, OneDrive) — fayllarni internet orqali masofaviy serverlarda saqlash va ularga istalgan joydan kirish imkonini beruvchi tizimdir."
+  },
+  {
+    "level": 1,
+    "id": 312351,
+    "q_ru": "Для каждого утверждения о типах компьютерной памяти выберите «Да», если оно верно, или «Нет», если нет.",
+    "q_en": "For each statement about computer memory types, select Yes if true, or No if false.",
+    "q_uz": "Kompyuter xotira turlari haqidagi fikrlarga to'g'ri bo'lsa 'Ha' (Да), xato bo'lsa 'Yo'q' (Нет) deb javob bering.",
+    "options_ru": [
+      "Оперативная память (RAM) энергозависима и теряет данные при выключении питания. ➔ Да",
+      "Постоянное запоминающее устройство (ROM) хранит инструкции, необходимые для загрузки компьютера. ➔ Да",
+      "SSD-накопители работают медленнее традиционных жестких дисков (HDD). ➔ Нет"
+    ],
+    "options_en": [
+      "RAM is volatile and loses data when the power is turned off. ➔ Yes",
+      "ROM stores instructions needed to boot the computer. ➔ Yes",
+      "SSD drives operate slower than traditional hard disk drives (HDDs). ➔ No"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• RAM o'chuvchan (Да), ROM yuklanish kodlarini saqlaydi (Да). SSD disklar HDD disklarga qaraganda ancha tez ishlaydi, sekin emas (Нет)."
+  },
+  {
+    "level": 1,
+    "id": 312352,
+    "q_ru": "Какое вредоносное программное обеспечение блокирует доступ к файлам пользователя и требует оплаты за их разблокировку?",
+    "q_en": "Which malware blocks access to a user's files and demands payment for unlocking them?",
+    "q_uz": "Foydalanuvchi fayllarini qulflab qo'yib, ularni ochish evaziga pul talab qiladigan zararli dastur turi qaysi?",
+    "options_ru": [
+      "Шпионское ПО (Spyware)",
+      "Программа-вымогатель (Ransomware)",
+      "Рекламное ПО (Adware)",
+      "Кейлоггер"
+    ],
+    "options_en": [
+      "Spyware",
+      "Ransomware",
+      "Adware",
+      "Keylogger"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Ransomware ( virus-tovlamachi) — fayllarni shifrlab, shantaj yo'li bilan pul (tovlamachilik) talab qiluvchi xavfli virus turi."
+  },
+  {
+    "level": 1,
+    "id": 312353,
+    "q_ru": "Какое из следующих программных обеспечений является примером открытого исходного кода (Open Source)?",
+    "q_en": "Which of the following software is an example of open source software?",
+    "q_uz": "Quyidagi dasturlardan qaysi biri ochiq kodli dasturiy ta'minotga (Open Source) misol bo'ladi?",
+    "options_ru": [
+      "Microsoft Windows",
+      "Linux (например, Ubuntu)",
+      "Adobe Illustrator",
+      "macOS"
+    ],
+    "options_en": [
+      "Microsoft Windows",
+      "Linux (e.g., Ubuntu)",
+      "Adobe Illustrator",
+      "macOS"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Open Source — bu kodi hamma uchun ochiq va bepul bo'lgan dasturlardir. Linux (Ubuntu, Android) ochiq kodli, Windows va macOS esa yopiq tijoriy dasturlardir."
+  },
+  {
+    "level": 1,
+    "id": 312354,
+    "q_ru": "Что из перечисленного является основным преимуществом использования беспроводных сетей Wi-Fi?",
+    "q_en": "Which of the following is a major benefit of using Wi-Fi wireless networks?",
+    "q_uz": "Simsiz Wi-Fi tarmoqlaridan foydalanishning eng asosiy afzalligi nimada?",
+    "options_ru": [
+      "Более высокая скорость по сравнению с проводным кабелем Ethernet.",
+      "Мобильность и отсутствие необходимости прокладывать физические кабели к устройствам.",
+      "Абсолютная защита от любых хакерских атак без настройки шифрования.",
+      "Увеличение времени работы аккумулятора смартфона."
+    ],
+    "options_en": [
+      "Higher speed compared to a wired Ethernet cable.",
+      "Mobility and no need to run physical cables to devices.",
+      "Absolute protection from any hacker attacks without encryption configuration.",
+      "Increased smartphone battery life."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Wi-Fi tarmog'ining bosh ustunligi — harakatlanish erkinligi (mobililik) va har bir qurilmaga sim tortib o'tirish majburiyatining yo'qligidir."
+  },
+  {
+    "level": 1,
+    "id": 312355,
+    "q_ru": "Что такое фишинг (Phishing)?",
+    "q_en": "What is phishing?",
+    "q_uz": "Phishing (fishblock) nima?",
+    "options_ru": [
+      "Процесс очистки компьютера от пыли.",
+      "Вид интернет-мошенничества, цель которого — получить доступ к конфиденциальным данным пользователей через поддельные сайты или письма.",
+      "Установка официального обновления безопасности.",
+      "Тестирование скорости интернет-соединения."
+    ],
+    "options_en": [
+      "The process of cleaning a computer from dust.",
+      "A type of online fraud aimed at gaining access to confidential user data through fake websites or emails.",
+      "Installing an official security update.",
+      "Testing internet connection speed."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Fishblock — ijtimoiy muhandislik turi bo'lib, xakerlar soxta xat yoki havolalar orqali sizning karta raqamingiz yoki parollaringizni aldab olishga urinishidir."
+  },
+  {
+    "level": 1,
+    "id": 312356,
+    "q_ru": "Какой протокол используется для безопасной передачи веб-страниц с шифрованием данных?",
+    "q_en": "Which protocol is used for secure web page transmission with data encryption?",
+    "q_uz": "Matnlarni shifrlangan va xavfsiz holda uzatish uchun qaysi veb-protokoldan foydalaniladi?",
+    "options_ru": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SMTP"
+    ],
+    "options_en": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SMTP"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• HTTP shifrlanmagan (xavfsiz emas). HTTPS (HyperText Transfer Protocol Secure) esa SSL/TLS shifrlash qatlami yordamida ma'lumotlarni xavfsiz uzatadi."
+  },
+  {
+    "level": 1,
+    "id": 312357,
+    "q_ru": "Какой из следующих компонентов считается «мозгом» компьютера, выполняющим инструкции программ?",
+    "q_en": "Which of the following components is considered the \"brain\" of the computer, executing program instructions?",
+    "q_uz": "Quyidagi qismlardan qaysi biri kompyuterning 'miyasi' hisoblanib, barcha buyruq va dasturlarni bajaradi?",
+    "options_ru": [
+      "Блок питания",
+      "Центральный процессор (CPU)",
+      "Видеокарта (GPU)",
+      "Жесткий диск"
+    ],
+    "options_en": [
+      "Power Supply Unit",
+      "Central Processing Unit (CPU)",
+      "Graphics Processing Unit (GPU)",
+      "Hard Drive"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• CPU (Central Processing Unit) — markaziy protsessor, barcha hisob-kitoblarni amalga oshiruvchi va kompyuter tizimini boshqaruvchi asosiy element."
+  },
+  {
+    "level": 1,
+    "id": 312358,
+    "q_ru": "Что из перечисленного является примером периферийного устройства ввода информации?",
+    "q_en": "Which of the following is an example of an input peripheral device?",
+    "q_uz": "Quyidagilardan qaysi biri ma'lumotlarni kirituvchi (input) periferiya qurilmasiga misol bo'ladi?",
+    "options_ru": [
+      "Монитор",
+      "Клавиатура",
+      "Принтер",
+      "Наушники"
+    ],
+    "options_en": [
+      "Monitor",
+      "Keyboard",
+      "Printer",
+      "Headphones"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Monitor, printer va quloqchinlar — ma'lumotni chiqaruvchi (output) qurilmalar. Klaviatura va sichqoncha esa ma'lumot kirituvchi (input) qurilmalardir."
+  },
+  {
+    "level": 1,
+    "id": 312359,
+    "q_ru": "Что такое IP-адрес?",
+    "q_en": "What is an IP address?",
+    "q_uz": "IP-manzil nima?",
+    "options_ru": [
+      "Физический адрес компьютера на заводе-изготовителе.",
+      "Уникальный числовой идентификатор устройства в компьютерной сети.",
+      "Почтовый адрес владельца компьютера.",
+      "Пароль для подключения к интернету."
+    ],
+    "options_en": [
+      "The physical address of a computer assigned at the manufacturing plant.",
+      "A unique numerical identifier for a device on a computer network.",
+      "The postal address of the computer owner.",
+      "The password for connecting to the internet."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• IP-manzil (Internet Protocol Address) — tarmoqqa ulangan har bir qurilmaga (kompyuter, telefon) beriladigan individual raqamli identifikatordir."
+  },
+  {
+    "level": 1,
+    "id": 312360,
+    "q_ru": "Какая из следующих угроз безопасности распространяется сама по себе через сетевые уязвимости без обязательного участия пользователя в запуске файлов?",
+    "q_en": "Which of the following security threats spreads by itself through network vulnerabilities without necessarily requiring user intervention to launch files?",
+    "q_uz": "Quyidagi xavfsizlik tahdidlaridan qaysi biri fayllarni ishga tushirishda foydalanuvchining ishtirokisiz tarmoq zaifliklari orqali o'z-o'zidan tarqaladi?",
+    "options_ru": [
+      "Троянская программа",
+      "Компьютерный червь (Worm)",
+      "Шпионский скрипт",
+      "Макровирус"
+    ],
+    "options_en": [
+      "Trojan horse",
+      "Computer worm",
+      "Spyware script",
+      "Macrovirus"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Worm (Tarmoq qurti) — o'z-o'zidan nusxa ko'chirib, tarmoqlar aro mustaqil ravishda virus tarqatish xususiyatiga ega zararli dastur."
+  },
+  {
+    "level": 1,
+    "id": 312361,
+    "q_ru": "Для каждого утверждения о резервном копировании (Backup) выберите «Да» или «Нет».",
+    "q_en": "For each statement about backup, select Yes or No.",
+    "q_uz": "Zaxira nusxalash (Backup) haqidagi fikrlarga Ha (Да) yoki Yo'q (Нет) deb javob bering.",
+    "options_ru": [
+      "Резервное копирование защищает данные от аппаратных сбоев. ➔ Да",
+      "Достаточно делать резервную копию один раз в несколько лет. ➔ Нет",
+      "Облачные сервисы автоматического бэкапа повышают сохранность данных. ➔ Да"
+    ],
+    "options_en": [
+      "Backup protects data from hardware failures. ➔ Yes",
+      "It is sufficient to backup once every few years. ➔ No",
+      "Cloud automatic backup services improve data safety. ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Bэkap qurilma buzilganda ma'lumotni saqlaydi (Да). Bir necha yilda bir marta bэkap qilish mutlaqo yetarli emas (Нет). Bulutli avto-bэkaplar ma'lumot xavfsizligini ta'minlaydi (Да)."
+  },
+  {
+    "level": 1,
+    "id": 312362,
+    "q_ru": "Что такое «куки» (Cookies) в веб-браузере?",
+    "q_en": "What are \"cookies\" in a web browser?",
+    "q_uz": "Veb-brauzerdagi 'kuki' (Cookies) fayllari nima?",
+    "options_ru": [
+      "Небольшие текстовые файлы с данными, отправляемые веб-сайтом и сохраняемые на компьютере пользователя для запоминания настроек и сессий.",
+      "Вирусы, крадущие пароли пользователей.",
+      "Специальные программы для ускорения загрузки видео.",
+      "Кэшированные картинки сайтов."
+    ],
+    "options_en": [
+      "Small text files with data sent by a website and stored on the user's computer to remember preferences and sessions.",
+      "Viruses that steal user passwords.",
+      "Special programs to speed up video loading.",
+      "Cached website images."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Cookies — saytlar sizni tanib olishi, savatdagi tovarlarni saqlab qolishi yoki shaxsiy sozlamalaringizni eslab qolishi uchun kompyuteringizga yozib qo'yiladigan kichik matnli ma'lumotlardir."
+  },
+  {
+    "level": 1,
+    "id": 312363,
+    "q_ru": "Какая технология беспроводной связи используется для обмена данными на очень коротких расстояниях (обычно до 10 метров), например, для подключения наушников к телефону?",
+    "q_en": "Which wireless technology is used for data exchange over very short distances (usually up to 10 meters), for instance, connecting headphones to a phone?",
+    "q_uz": "Qisqa masofada (odatda 10 metrgacha) simsiz ma'lumot almashish, masalan quloqchinni telefonga ulash uchun qaysi texnologiya ishlatiladi?",
+    "options_ru": [
+      "Wi-Fi",
+      "Bluetooth",
+      "GPS",
+      "4G LTE"
+    ],
+    "options_en": [
+      "Wi-Fi",
+      "Bluetooth",
+      "GPS",
+      "4G LTE"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Bluetooth — yaqin masofadagi aksessuarlar, smartfonlar va gadjetlarni simsiz o'zaro bog'lash standartidir."
+  },
+  {
+    "level": 1,
+    "id": 312364,
+    "q_ru": "Что из перечисленного является браузером?",
+    "q_en": "Which of the following is a browser?",
+    "q_uz": "Quyidagilardan qaysi biri internet brauzeri hisoblanadi?",
+    "options_ru": [
+      "Google Search",
+      "Mozilla Firefox",
+      "Adobe Acrobat",
+      "Windows Explorer"
+    ],
+    "options_en": [
+      "Google Search",
+      "Mozilla Firefox",
+      "Adobe Acrobat",
+      "Windows Explorer"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Google Search — qidiruv tizimi, Firefox esa veb-saytlarni ochish va ko'rish uchun ishlatiladigan rasmiy veb-brauzerdir."
+  },
+  {
+    "level": 1,
+    "id": 312365,
+    "q_ru": "Какой тип кабеля обеспечивает наивысшую скорость передачи данных на большие расстояния с помощью световых импульсов?",
+    "q_en": "Which type of cable provides the highest data transfer rate over long distances using light pulses?",
+    "q_uz": "Yorug'lik impulslari yordamida uzoq masofalarga eng yuqori tezlikda ma'lumot uzatuvchi kabel turi qaysi?",
+    "options_ru": [
+      "Коаксиальный кабель",
+      "Витая пара (Ethernet)",
+      "Оптоволоконный кабель (Fiber-optic)",
+      "Телефонный кабель"
+    ],
+    "options_en": [
+      "Coaxial cable",
+      "Twisted pair (Ethernet)",
+      "Fiber-optic cable",
+      "Telephone wire"
+    ],
+    "answer_idx": 2,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Optik tolali (Fiber-optic) kabellar ma'lumotni mis simlar orqali tok bilan emas, shisha tolalar orqali yorug'lik tezligida uzatadi."
+  },
+  {
+    "level": 1,
+    "id": 312366,
+    "q_ru": "Что такое цифровая грамотность (Digital Literacy)?",
+    "q_en": "What is digital literacy?",
+    "q_uz": "Raqamli savodxonlik (Digital Literacy) nima?",
+    "options_ru": [
+      "Умение быстро печатать текст на клавиатуре.",
+      "Способность находить, оценивать, использовать и создавать контент с помощью информационных технологий и интернета.",
+      "Наличие высшего технического образования.",
+      "Знание языков программирования."
+    ],
+    "options_en": [
+      "The ability to type text quickly on a keyboard.",
+      "The ability to find, evaluate, use, and create content using information technology and the internet.",
+      "Having a higher technical education.",
+      "Knowledge of programming languages."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Raqamli savodxonlik — bu faqatgina kompyuterni yoqish emas, balki texnologiyalar asrida ma'lumotlarni to'g'ri izlash, tahlil qilish va ulardan xavfsiz foydalana olish ko'nikmasidir."
+  },
+  {
+    "level": 1,
+    "id": 312367,
+    "q_ru": "Какое устройство преобразует цифровые сигналы компьютера в аналоговые для передачи по телефонным линиям или кабелям связи?",
+    "q_en": "Which device converts computer digital signals into analog ones for transmission over telephone lines or communication cables?",
+    "q_uz": "Kompyuterning raqamli signallarini telefon liniyalari yoki aloqa kabellari orqali uzatish uchun analog signallarga qaysi qurilma aylantirib beradi?",
+    "options_ru": [
+      "Процессор",
+      "Модем",
+      "Сканер",
+      "Сетевой коммутатор"
+    ],
+    "options_en": [
+      "Processor",
+      "Modem",
+      "Scanner",
+      "Network switch"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Modem (Modulator-Demodulator) — raqamli va analog signallarni o'zaro konvertatsiya qilib, internetga ulanishni ta'minlovchi klassik qurilmadir."
+  },
+  {
+    "level": 1,
+    "id": 312368,
+    "q_ru": "Какая из следующих лицензий позволяет бесплатно использовать и изменять продукт, но обязывает указывать автора оригинального произведения?",
+    "q_en": "Which of the following licenses allows free use and modification of a product but requires crediting the original author?",
+    "q_uz": "Quyidagi litsenziyalardan qaysi biri mahsulotdan bepul foydalanish va uni o'zgartirishga ruxsat beradi, biroq asl muallifni majburiy ko'rsatishni talab qiladi?",
+    "options_ru": [
+      "Проприетарная лицензия",
+      "Creative Commons (CC BY)",
+      "Коммерческая лицензия",
+      "Строгая коммерческая тайна"
+    ],
+    "options_en": [
+      "Proprietary license",
+      "Creative Commons (CC BY)",
+      "Commercial license",
+      "Strict trade secret"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Creative Commons Attribution (CC BY) — litsenziyasi mualliflikni saqlab qolgan holda asardan erkin, hatto tijoriy maqsadlarda ham foydalanishga yo'l ochadi."
+  },
+  {
+    "level": 1,
+    "id": 312369,
+    "q_ru": "Что такое фишинг-ссылка в сообщении?",
+    "q_en": "What is a phishing link in a message?",
+    "q_uz": "Xabardagi firibgarlik (phishing) havolasi nima?",
+    "options_ru": [
+      "Ссылка на официальное обновление Windows.",
+      "Замаскированная ссылка на вредоносный или поддельный сайт, созданный для кражи ваших учетных данных.",
+      "Ссылка на скачивание бесплатной легальной игры.",
+      "Ускоритель загрузки файлов."
+    ],
+    "options_en": [
+      "A link to an official Windows update.",
+      "A disguised link to a malicious or fake website designed to steal your credentials.",
+      "A link to download a free legal game.",
+      "A file download accelerator."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Phishing havolasi rasmiy saytlarga o'xshatib yasalgan soxta sahifalarga olib boradi va maqsadi parollaringizni qo'lga kiritishdir."
+  },
+  {
+    "level": 1,
+    "id": 312370,
+    "q_ru": "Какой из следующих вариантов описывает функцию брэндмауэра (Firewall) на компьютере?",
+    "q_en": "Which of the following options describes the function of a firewall on a computer?",
+    "q_uz": "Kompyuterdagi xavfsizlik devori (Firewall) vazifasini quyidagilardan qaysi biri to'g'ri ta'riflaydi?",
+    "options_ru": [
+      "Очистка оперативной памяти от неиспользуемых программ.",
+      "Мониторинг и фильтрация сетевого трафика на основе заданных правил безопасности.",
+      "Увеличение емкости жесткого диска.",
+      "Автоматическое обновление драйверов."
+    ],
+    "options_en": [
+      "Cleaning RAM from unused programs.",
+      "Monitoring and filtering network traffic based on configured security rules.",
+      "Increasing hard drive capacity.",
+      "Automatic driver updates."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Firewall — tarmoq trafigini tunu-kun nazorat qiladi va zararli paketlarning kompyuterga kirishini taqiqlaydi."
+  },
+  {
+    "level": 1,
+    "id": 312371,
+    "q_ru": "Что из перечисленного является примером облачного хранилища данных?",
+    "q_en": "Which of the following is an example of cloud data storage?",
+    "q_uz": "Quyidagilardan qaysi biri bulutli ma'lumotlar omboriga misol bo'la oladi?",
+    "options_ru": [
+      "Microsoft Word",
+      "Google Drive",
+      "Adobe Photoshop",
+      "WinRAR"
+    ],
+    "options_en": [
+      "Microsoft Word",
+      "Google Drive",
+      "Adobe Photoshop",
+      "WinRAR"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Google Drive (shuningdek Dropbox, OneDrive) — ma'lumotlarni internetdagi serverlarda masofadan saqlash xizmatidir."
+  },
+  {
+    "level": 1,
+    "id": 312372,
+    "q_ru": "Для каждого утверждения об операционной системе выберите «Да» или «Нет».",
+    "q_en": "For each statement about the operating system, select Yes or No.",
+    "q_uz": "Operatsion tizim haqidagi gaplarga Ha (Да) yoki Yo'q (Нет) deb javob bering.",
+    "options_ru": [
+      "Операционная система управляет аппаратным обеспечением компьютера. ➔ Да",
+      "Без операционной системы компьютер может полноценно запускать любые современные игры. ➔ Нет",
+      "Android является мобильной операционной системой. ➔ Да"
+    ],
+    "options_en": [
+      "The operating system manages the computer hardware. ➔ Yes",
+      "Without an operating system, a computer can fully launch any modern games. ➔ No",
+      "Android is a mobile operating system. ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Operatsion tizim texnikani boshqaradi (Да). Operatsion tizimsiz kompyuterda biror bir dastur yoki o'yinni mutlaqo ishga tushirib bo'lmaydi (Нет). Android — mobil operatsion tizim (Да)."
+  },
+  {
+    "level": 1,
+    "id": 312373,
+    "q_ru": "Какое устройство используется для вывода видео и графической информации пользователю?",
+    "q_en": "Which device is used to output video and graphical information to the user?",
+    "q_uz": "Video va grafik ma'lumotlarni foydalanuvchiga ko'rsatish (chiqarish) uchun qaysi qurilma xizmat qiladi?",
+    "options_ru": [
+      "Монитор",
+      "Сканер",
+      "Микрофон",
+      "Жесткий диск"
+    ],
+    "options_en": [
+      "Monitor",
+      "Scanner",
+      "Microphone",
+      "Hard drive"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Monitor (ekran) — grafik vizual ma'lumotlarni ko'zga ko'rinadigan shaklda tashqariga chiqarib beruvchi asosiy qurilmadir."
+  },
+  {
+    "level": 1,
+    "id": 312374,
+    "q_ru": "Что такое вредоносное ПО типа «Троян» (Trojan Horse)?",
+    "q_en": "What is a \"Trojan Horse\" type of malware?",
+    "q_uz": "Zararli dasturlar ichida 'Trojan' (Trojan otlari) nima degani?",
+    "options_ru": [
+      "Антивирусная программа, созданная для защиты системы.",
+      "Вредоносная программа, маскирующаяся под полезное или легитимное программное обеспечение.",
+      "Специальный кабель для ускорения интернета.",
+      "Скрипт автоматического обновления программ."
+    ],
+    "options_en": [
+      "An antivirus program designed to protect the system.",
+      "Malicious software disguised as useful or legitimate software.",
+      "A special cable to speed up the internet.",
+      "A script for automatic software updates."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Trojan virusi foydali dastur yoki o'yin niqobi ostida tizimga kirib oladi va yashirincha kompyuterni buzish yoki ma'lumot o'g'irlash bilan shug'ullanadi."
+  },
+  {
+    "level": 1,
+    "id": 312375,
+    "q_ru": "Какая из следующих сетей имеет наименьший географический охват (обычно в пределах одной комнаты или здания)?",
+    "q_en": "Which of the following networks has the smallest geographical coverage (usually within a single room or building)?",
+    "q_uz": "Quyidagi tarmoqlardan qaysi biri eng kichik geografik hududni (odatda bir xona yoki bino ichini) qamrab oladi?",
+    "options_ru": [
+      "WAN",
+      "LAN",
+      "MAN",
+      "Интернет"
+    ],
+    "options_en": [
+      "WAN",
+      "LAN",
+      "MAN",
+      "Internet"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• LAN (Local Area Network) — mahalliy tarmoq bo'lib, ofis, uy yoki bino ichidagi kompyuterlarni o'zaro ulash uchun ishlatiladi."
+  },
+  {
+    "level": 1,
+    "id": 312376,
+    "q_ru": "Что означает понятие «Цифровой след» (Digital Footprint)?",
+    "q_en": "What does the concept of \"Digital Footprint\" mean?",
+    "q_uz": "'Raqamli iz' (Digital Footprint) tushunchasi nimani anglatadi?",
+    "options_ru": [
+      "Уникальный номер вашего процессора.",
+      "Уникальный след из данных, оставляемый пользователем в Интернете при совершении различных действий.",
+      "Размер экрана вашего смартфона.",
+      "Количество скачанных файлов за месяц."
+    ],
+    "options_en": [
+      "The unique number of your processor.",
+      "A unique data trail left by a user on the Internet when performing various activities.",
+      "The screen size of your smartphone.",
+      "The number of downloaded files per month."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Raqamli iz — siz internetda qoldiradigan barcha ma'lumotlar: qidiruvlar, ijtimoiy tarmoqdagi izohlar, ko'rilgan videolar va xaridlar tarixidir."
+  },
+  {
+    "level": 1,
+    "id": 312377,
+    "q_ru": "Какой протокол отвечает за передачу файлов между компьютерами в сети?",
+    "q_en": "Which protocol is responsible for transferring files between computers on a network?",
+    "q_uz": "Tarmoqdagi kompyuterlar o'rtasida fayllarni to'g'ridan-to'g'ri uzatish (yuklash) uchun qaysi protokol mas'ul?",
+    "options_ru": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "DNS"
+    ],
+    "options_en": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "DNS"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• FTP (File Transfer Protocol) — tarmoqda fayllarni yuklash va serverga joylashtirish uchun maxsus ishlab chiqilgan protokoldir."
+  },
+  {
+    "level": 1,
+    "id": 312378,
+    "q_ru": "Что из перечисленного является примером сильного и безопасного пароля?",
+    "q_en": "Which of the following is an example of a strong and secure password?",
+    "q_uz": "Quyidagilardan qaysi biri kuchli va xavfsiz parolga misol bo'la oladi?",
+    "options_ru": [
+      "12345678",
+      "qwerty",
+      "admin",
+      "Tr0$p@k19!"
+    ],
+    "options_en": [
+      "12345678",
+      "qwerty",
+      "admin",
+      "Tr0$p@k19!"
+    ],
+    "answer_idx": 3,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• 'Tr0$p@k19!' paroli tarkibida katta va kichik harflar, maxsus belgilar ($ , !) hamda raqamlar borligi uchun eng xavfsiz hisoblanadi."
+  },
+  {
+    "level": 1,
+    "id": 312379,
+    "q_ru": "Какое устройство объединяет несколько компьютеров в одну локальную сеть на аппаратном уровне, направляя пакеты данных конкретному получателю?",
+    "q_en": "Which device connects multiple computers into a single local area network at the hardware level, directing data packets to a specific recipient?",
+    "q_uz": "Bir nechta kompyuterlarni bitta mahalliy tarmoqqa apparat darajasida birlashtirib, ma'lumotlarni faqat aniq qabul qiluvchiga yo'naltiradigan qurilma qaysi?",
+    "options_ru": [
+      "Сетевой коммутатор (Switch)",
+      "Процессор",
+      "Сканер",
+      "Жесткий диск"
+    ],
+    "options_en": [
+      "Network switch",
+      "Processor",
+      "Scanner",
+      "Hard drive"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Switch (Kommutator) — aqlli qurilma bo'lib, tarmoqdagi ma'lumot paketlarini MAC-manzillar yordamida aynan kerakli kompyuterga yuboradi."
+  },
+  {
+    "level": 1,
+    "id": 312380,
+    "q_ru": "Что такое «Интернет вещей» (IoT)?",
+    "q_en": "What is the \"Internet of Things\" (IoT)?",
+    "q_uz": "'Buyumlar interneti' (IoT) nima?",
+    "options_ru": [
+      "Сеть обычных физических предметов («вещей»), оснащенных датчиками и ПО для взаимодействия друг с другом и внешней средой через Интернет.",
+      "Специальный каталог интернет-магазинов.",
+      "Программа для поиска потерянных вещей в комнате.",
+      "Глобальная база данных всех компьютеров в мире."
+    ],
+    "options_en": [
+      "A network of regular physical objects (\"things\") embedded with sensors and software to interact with each other and the external environment over the Internet.",
+      "A special catalog of online stores.",
+      "A program for finding lost things in a room.",
+      "A global database of all computers in the world."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• IoT (Internet of Things) — aqlli uylar, masofadan boshqariladigan chiroqlar, muzlatgichlar va boshqa jihozlarning internet orqali yagona tizimda ishlashidir."
+  },
+  {
+    "level": 1,
+    "id": 312381,
+    "q_ru": "Для каждого утверждения об авторском праве выберите «Да» или «Нет».",
+    "q_en": "For each statement about copyright, select Yes or No.",
+    "q_uz": "Mualliflik huquqi (Copyright) haqidagi gaplarga Ha (Да) yoki Yo'q (Нет) deb javob bering.",
+    "options_ru": [
+      "Авторское право защищает идеи, которые еще не были записаны или реализованы. ➔ Нет",
+      "Авторское право дает создателю исключительное право на копирование и распространение своего произведения. ➔ Да",
+      "Общественное достояние (Public Domain) включает произведения, свободные от авторских прав. ➔ Да"
+    ],
+    "options_en": [
+      "Copyright protects ideas that have not yet been recorded or implemented. ➔ No",
+      "Copyright gives the creator the exclusive right to copy and distribute their work. ➔ Yes",
+      "Public Domain includes works that are free from copyright. ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Mualliflik huquqi xayoldagi g'oyalarni himoya qilmaydi, faqat moddiy shaklga kelgan asarni himoyalaydi (Нет). Muallifga eksklyuziv huquq beradi (Да). Jamoat mulki erkin foydalaniladi (Да)."
+  },
+  {
+    "level": 1,
+    "id": 312382,
+    "q_ru": "Что такое спам?",
+    "q_en": "What is spam?",
+    "q_uz": "Spam nima?",
+    "options_ru": [
+      "Важное письмо от администрации вашей почты.",
+      "Массовая рассылка нежелательных сообщений рекламного или иного характера лицам, не выражавшим желания их получать.",
+      "Программа для очистки компьютера.",
+      "Папка с важными документами."
+    ],
+    "options_en": [
+      "An important email from your email provider administration.",
+      "Mass distribution of unsolicited messages of a commercial or other nature to individuals who have not expressed a desire to receive them.",
+      "A computer cleanup program.",
+      "A folder with important documents."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Spam — siz obuna bo'lmagan, ruxsatingizsiz ommaviy ravishda yuboriladigan keraksiz reklama va xabarlardir."
+  },
+  {
+    "level": 1,
+    "id": 312383,
+    "q_ru": "Какое устройство используется для оцифровки бумажных документов и изображений?",
+    "q_en": "Which device is used to digitize paper documents and images?",
+    "q_uz": "Qog'oz hujjatlar va rasmlarni elektron (raqamli) holatga o'tkazish (o'qish) uchun qaysi qurilma ishlatiladi?",
+    "options_ru": [
+      "Принтер",
+      "Сканер",
+      "Плоттер",
+      "Монитор"
+    ],
+    "options_en": [
+      "Printer",
+      "Scanner",
+      "Plotter",
+      "Monitor"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Scanner (Сканер) — qog'ozdagi matn yoki tasvirni sknerlab, kompyuter xotirasiga fayl (raqamli nusxa) shaklida kirituvchi qurilmadir."
+  },
+  {
+    "level": 1,
+    "id": 312384,
+    "q_ru": "Что делает антивирусное программное обеспечение?",
+    "q_en": "What does antivirus software do?",
+    "q_uz": "Antivirus dasturlari nima ishni bajaradi?",
+    "options_ru": [
+      "Ускоряет работу клавиатуры.",
+      "Обнаруживает, блокирует и удаляет вредоносные программы.",
+      "Повышает скорость скачивания из интернета.",
+      "Очищает корзину файлов."
+    ],
+    "options_en": [
+      "Speeds up keyboard operation.",
+      "Detects, blocks, and removes malware.",
+      "Increases internet download speed.",
+      "Cleans up the file trash bin."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Antivirusning asosiy vazifasi — kompyuter tizimini zararli viruslardan himoya qilish, ularni qidirib topish va zararsizlantirishdir."
+  },
+  {
+    "level": 1,
+    "id": 312385,
+    "q_ru": "Какой тип программного обеспечения управляет базовыми функциями компьютера и предоставляет интерфейс для работы других программ?",
+    "q_en": "Which type of software manages basic computer functions and provides an interface for other programs to run?",
+    "q_uz": "Kompyuterning fundamental funksiyalarini boshqaradigan va boshqa dasturlar ishlashi uchun muhit/interfeys taqdim etadigan dasturiy ta'minot turi qaysi?",
+    "options_ru": [
+      "СУБД",
+      "Операционная система",
+      "Браузер",
+      "Текстовый редактор"
+    ],
+    "options_en": [
+      "DBMS",
+      "Operating system",
+      "Browser",
+      "Text editor"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Operatsion tizim (masalan Windows, Linux) — apparat qismini foydalanuvchi va amaliy dasturlar bilan bog'lovchi poydevor dasturiy ta'minotdir."
+  },
+  {
+    "level": 1,
+    "id": 312386,
+    "q_ru": "Какое из следующих расширений указывает на аудиофайл высокого качества без сжатия или с минимальным сжатием?",
+    "q_en": "Which of the following extensions indicates a high-quality audio file with no compression or minimal compression?",
+    "q_uz": "Quyidagi fayl kengaytmalardan qaysi biri siqilmagan (yoki minimal siqilgan) yuqori sifatli audio faylni bildiradi?",
+    "options_ru": [
+      ".wav",
+      ".txt",
+      ".gif",
+      ".html"
+    ],
+    "options_en": [
+      ".wav",
+      ".txt",
+      ".gif",
+      ".html"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• .wav (Waveform Audio File Format) — ovozni siqmasdan, asl studiyaviy tozalikda va yuqori sifatda saqlaydigan formatdir."
+  },
+  {
+    "level": 1,
+    "id": 312387,
+    "q_ru": "Что из перечисленного является главной задачей резервного копирования данных?",
+    "q_en": "Which of the following is the main purpose of data backup?",
+    "q_uz": "Ma'lumotlarni zaxira nusxalash (backup) qilishning eng asosiy maqsadi nima?",
+    "options_ru": [
+      "Освобождение места на основном диске.",
+      "Предотвращение безвозвратной потери данных в случае поломки оборудования, кражи или удаления.",
+      "Шифрование файлов от вирусов.",
+      "Ускорение работы операционной системы."
+    ],
+    "options_en": [
+      "Freeing up space on the main drive.",
+      "Preventing permanent data loss in case of hardware failure, theft, or deletion.",
+      "Encrypting files from viruses.",
+      "Speeding up the operating system."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Backup'ning asosiy maqsadi — to'satdan kompyuter yonib ketsa yoki virus fayllarni o'chirsa, muhim hujjatlarni zaxira nusxadan qayta tiklash imkoniyatini ta'minlashdir."
+  },
+  {
+    "level": 1,
+    "id": 312388,
+    "q_ru": "Что из себя представляет технология блокчейн (Blockchain)?",
+    "q_en": "What does blockchain technology represent?",
+    "q_uz": "Blokcheyn (Blockchain) texnologiyasi nima?",
+    "options_ru": [
+      "Особый вид антивирусной защиты.",
+      "Децентрализованная распределенная база данных, в которой информация хранится в виде цепочки блоков, защищенной шифрованием.",
+      "Центральный сервер крупного банка.",
+      "Драйвер для ускорения видеокарты."
+    ],
+    "options_en": [
+      "A special kind of antivirus protection.",
+      "A decentralized distributed database where information is stored as a chain of blocks secured by encryption.",
+      "The central server of a large bank.",
+      "A driver for speeding up the graphics card."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Blokcheyn — bu markazlashmagan (hech kimga bo'ysunmaydigan), o'zgartirish va soxtalashtirish imkonsiz bo'lgan zanjirli ma'lumotlar bazasi."
+  },
+  {
+    "level": 1,
+    "id": 312389,
+    "q_ru": "Для каждого утверждения об интернет-безопасности выберите «Да» или «Нет».",
+    "q_en": "For each statement about internet security, select Yes or No.",
+    "q_uz": "Internet xavfsizligi haqidagi gaplarga Ha (Да) yoki Yo'q (Нет) deb o'z munosabatingizni bildiring.",
+    "options_ru": [
+      "Безопасно вводить данные кредитной карты на сайтах без протокола HTTPS. ➔ Нет",
+      "Обновление программного обеспечения помогает закрыть уязвимости безопасности. ➔ Да",
+      "Использование публичного Wi-Fi без VPN сопряжено с рисками перехвата трафика. ➔ Да"
+    ],
+    "options_en": [
+      "It is safe to enter credit card details on sites without the HTTPS protocol. ➔ No",
+      "Updating software helps patch security vulnerabilities. ➔ Yes",
+      "Using public Wi-Fi without a VPN carries risks of traffic interception. ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• HTTPS'siz saytga karta kiritish xavfli (Нет). Dasturlarni yangilash xavfsizlik teshiklarini yopadi (Да). Ochiq kafedagi Wi-Fi orqali trafikni o'g'irlash oson, VPN kerak (Да)."
+  },
+  {
+    "level": 1,
+    "id": 312390,
+    "q_ru": "Что означает термин «фишинг»?",
+    "q_en": "What does the term \"phishing\" mean?",
+    "q_uz": "'Phishing' atamasi nimani anglatadi?",
+    "options_ru": [
+      "Спортивное программирование.",
+      "Метод получения незаконного доступа к конфиденциальным данным путем маскировки под надежный источник.",
+      "Поиск уязвимостей в коде сайта.",
+      "Оптимизация базы данных."
+    ],
+    "options_en": [
+      "Competitive programming.",
+      "A method of gaining unauthorized access to confidential data by masquerading as a trustworthy source.",
+      "Searching for vulnerabilities in website code.",
+      "Database optimization."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Phishing — firibgarlik yo'li bilan (masalan soxta bank xabarnomasi) insonlarning maxfiy login, parol yoki pin-kodlarini qarmoqqa ilintirishdir."
+  },
+  {
+    "level": 1,
+    "id": 312431,
+    "q_ru": "Какое устройство используется для модуляции и демодуляции сигналов при подключении к Интернету?",
+    "q_en": "Which device is used for signal modulation and demodulation when connecting to the Internet?",
+    "q_uz": "Internetga ulanishda signallarni modulyatsiya va demulyatsiya qilish uchun qaysi qurilma ishlatiladi?",
+    "options_ru": [
+      "Маршрутизатор",
+      "Модем",
+      "Коммутатор",
+      "Репитер"
+    ],
+    "options_en": [
+      "Router",
+      "Modem",
+      "Switch",
+      "Repeater"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Provayder simidagi analog signalni kompyuter tushunadigan raqamli signalga (va aksincha) aylantiruvchi qurilma — Modemdir."
+  },
+  {
+    "level": 1,
+    "id": 312432,
+    "q_ru": "Какое расширение файла обычно указывает на графическое изображение с поддержкой анимации?",
+    "q_en": "Which file extension typically indicates a graphical image with animation support?",
+    "q_uz": "Quyidagi fayl kengaytmalardan qaysi biri odatda animatsiyali (harakatlanuvchi) tasvirni bildiradi?",
+    "options_ru": [
+      ".jpg",
+      ".gif",
+      ".png",
+      ".bmp"
+    ],
+    "options_en": [
+      ".jpg",
+      ".gif",
+      ".png",
+      ".bmp"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• .jpg va .png statik rasmlar. .gif (Graphics Interchange Format) esa bir nechta kadrlarni o'z ichida saqlab, harakatlanuvchi animatsiya hosil qila oladi."
+  },
+  {
+    "level": 1,
+    "id": 312433,
+    "q_ru": "Что из перечисленного является главной функцией оперативной памяти (RAM)?",
+    "q_en": "Which of the following is the primary function of Random Access Memory (RAM)?",
+    "q_uz": "Quyidagilardan qaysi biri tezkor xotira (RAM)ning asosiy funksiyasi hisoblanadi?",
+    "options_ru": [
+      "Долговременное хранение личных файлов пользователя.",
+      "Временное хранение данных, которые активно используются процессором в текущий момент времени.",
+      "Отображение графического интерфейса на экране.",
+      "Управление подачей электропитания."
+    ],
+    "options_en": [
+      "Long-term storage of user personal files.",
+      "Temporary storage of data currently being actively used by the processor.",
+      "Displaying the graphical interface on the screen.",
+      "Managing power supply."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• RAM — bu kompyuter ishlab turganda ochiq bo'lgan dasturlar va amallar ma'lumotlarini vaqtincha saqlab turuvchi o'ta tezkor xotira blokidir."
+  },
+  {
+    "level": 1,
+    "id": 312434,
+    "q_ru": "Что такое вредоносное ПО типа «Шпион» (Spyware)?",
+    "q_en": "What is a \"Spyware\" type of malware?",
+    "q_uz": "Zararli dasturlar ichida 'Spyware' (josus dasturlar) nima vazifani bajaradi?",
+    "options_ru": [
+      "Программа, которая тайно собирает информацию о действиях пользователя и передает ее злоумышленнику.",
+      "Программа для ускорения работы интернет-браузера.",
+      "Утилита для восстановления удаленных файлов.",
+      "Брандмауэр операционной системы."
+    ],
+    "options_en": [
+      "A program that secretly collects information about user activities and transmits it to an attacker.",
+      "A program to speed up the web browser operation.",
+      "A utility for recovering deleted files.",
+      "The operating system firewall."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Spyware — foydalanuvchiga bildirmasdan uning qaysi saytlarga kirishi, parollari va klaviaturada nimalar yozishini poylab, xakerlarga yuboruvchi josus virus."
+  },
+  {
+    "level": 1,
+    "id": 312435,
+    "q_ru": "Для каждого утверждения о типах компьютерных лицензий выберите «Да» или «Нет».",
+    "q_en": "For each statement about computer license types, select Yes or No.",
+    "q_uz": "Kompyuter dasturiy ta'minot litsenziyalari haqidagi fikrlarga Ha (Да) yoki Yo'q (Нет) deb javob bering.",
+    "options_ru": [
+      "Проприетарное ПО позволяет свободно изменять свой исходный код любым пользователем. ➔ Нет",
+      "Лицензия Shareware позволяет бесплатно использовать программу в течение пробного периода. ➔ Да",
+      "ПО типа Freeware предоставляется бесплатно без ограничения срока действия. ➔ Да"
+    ],
+    "options_en": [
+      "Proprietary software allows its source code to be freely modified by any user. ➔ No",
+      "A Shareware license allows free use of the program during a trial period. ➔ Yes",
+      "Freeware software is provided for free with no expiration date. ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Proprietar (tijoriy) dasturlar kodini o'zgartirish taqiqlanadi (Нет). Shareware — sinov muddati (trial) bor dastur (Да). Freeware — mutlaqo bepul dastur (Да)."
+  }
+]

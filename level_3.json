@@ -1,0 +1,850 @@
+[
+  {
+    "level": 3,
+    "id": 364539,
+    "q_ru": "Какая из следующих ситуаций является примером кражи личных данных (Identity Theft)?",
+    "q_en": "Which of the following situations is an example of identity theft?",
+    "q_uz": "Quyidagi vaziyatlardan qaysi biri shaxsiy ma'lumotlarni o'g'irlash (Identity Theft) misoli hisoblanadi?",
+    "options_ru": [
+      "Обрушение дерева на линию электропередачи, из-за чего ваш компьютер выключается.",
+      "Человек находит вашу старую квитанцию в мусоре и использует номер вашей кредитной карты для покупки товаров.",
+      "Кто-то угадывает ваш пароль от Netflix и смотрит фильмы под вашим профилем.",
+      "Компьютерный вирус шифрует ваши файлы и требует выкуп за их расшифровку."
+    ],
+    "options_en": [
+      "A tree falling on a power line, causing your computer to shut down.",
+      "A person finds your old receipt in the trash and uses your credit card number to buy goods.",
+      "Someone guesses your Netflix password and watches movies under your profile.",
+      "A computer virus encrypts your files and demands a ransom to decrypt them."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Shaxsiy ma'lumotlarni o'g'irlash (Identity Theft) — bu boshqa shaxsning moliyaviy yoki shaxsiy ma'lumotlaridan (masalan, plastik karta raqamidan) uning ruxsatisiz g'arazli maqsadlarda foydalanishdir."
+  },
+  {
+    "level": 3,
+    "id": 364540,
+    "q_ru": "Распределите типы лицензий Creative Commons в соответствии с их условиями использования. Чтобы ответить, перетащите каждый тип лицензии из колонки слева к его описанию справа.",
+    "q_en": "Match each Creative Commons license type with its terms of use.",
+    "q_uz": "Creative Commons litsenziya turlarini ulardan foydalanish shartlariga moslashtiring.",
+    "options_ru": [
+      "Разрешает распространять, ремиксовать, адаптировать и брать за основу произведение даже в коммерческих целях, если указано авторство. ➔ CC-BY",
+      "Разрешает повторное использование произведения в любых целях, включая коммерческие, однако его нельзя делиться в адаптированной форме. ➔ CC-BY-ND",
+      "Разрешает ремиксовать, адаптировать и брать за основу произведение в некоммерческих целях с указанием авторства. ➔ CC-BY-NC",
+      "Разрешает распространять, ремиксовать, адаптировать произведение даже в коммерческих целях, при условии лицензирования под теми же условиями. ➔ CC-BY-SA"
+    ],
+    "options_en": [
+      "Allows to distribute, remix, adapt, and build upon the work even commercially, as long as credited. ➔ CC-BY",
+      "Allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged. ➔ CC-BY-ND",
+      "Allows to remix, adapt, and build upon the work non-commercially with credit. ➔ CC-BY-NC",
+      "Allows to distribute, remix, adapt, even commercially, as long as licensed under identical terms. ➔ CC-BY-SA"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• CC-BY: Faqat muallifni ko'rsatgan holda cheksiz foydalanish.\n• CC-BY-ND (No Derivatives): O'zgartirish kiritmasdan (asl holatda) tarqatish.\n• CC-BY-NC (Non-Commercial): Faqat nodavlat/notijorat maqsadlarda foydalanish.\n• CC-BY-SA (Share Alike): Xuddi shu litsenziya sharti ostida qayta tarqatish."
+  },
+  {
+    "level": 3,
+    "id": 364541,
+    "q_ru": "Для каждого утверждения о цифровом следе (Digital Footprint) выберите «Правда», если оно истинно, или «Ложь», если оно ложно.",
+    "q_en": "For each statement about digital footprint, select True or False.",
+    "q_uz": "Raqamli iz (Digital Footprint) haqidagi har bir fikrni Haqiqat (Правда) yoki Yolg'on (Ложь) ekanligini baholang.",
+    "options_ru": [
+      "Правда ➔ Цифровой след — это след данных, которые вы оставляете при использовании Интернета.",
+      "Правда ➔ Цифровой след может включать веб-сайты, которые вы посещаете, электронные письма, которые вы отправляете, и информацию, которую вы отправляете в онлайн-сервисы.",
+      "Ложь ➔ Пассивный цифровой след создается, когда пользователь намеренно делится информацией о себе.",
+      "Ложь ➔ После удаления аккаунта в социальной сети ваш цифровой след полностью исчезает."
+    ],
+    "options_en": [
+      "True ➔ A digital footprint is a data trail you leave when using the Internet.",
+      "True ➔ A digital footprint can include websites you visit, emails you send, and information you submit to online services.",
+      "False ➔ A passive digital footprint is created when a user intentionally shares information about themselves.",
+      "False ➔ After deleting a social media account, your digital footprint completely disappears."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Internetda qoldiradigan har qanday ma'lumotlar tarmog'i — bu raqamli izdir (Haqiqat).\n• Foydalanuvchi o'zi bilib turib ma'lumot ulashganda faol (active) iz qoladi, passiv emas (Yolg'on).\n• Akkaunt o'chirilganda ham internetda qolgan izlar to'liq yo'qolib ketmaydi (Yolg'on)."
+  },
+  {
+    "level": 3,
+    "id": 364542,
+    "q_ru": "Какие две вещи из перечисленных могут помочь защитить вашу личную конфиденциальность в Интернете? (Выберите два)",
+    "q_en": "Which two of the following can help protect your personal privacy online? (Choose two)",
+    "q_uz": "Internetda shaxsiy daxlsizlik va maxfiylikni (privacy) himoya qilishga qaysi ikkita usul yordam beradi? (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Использование VPN (виртуальной частной сети).",
+      "Отключение файлов cookie в настройках браузера.",
+      "Публикация своего номера телефона в открытом доступе.",
+      "Использование одного и того же пароля для всех сайтов.",
+      "Клик по всем всплывающим окнам (pop-ups)."
+    ],
+    "options_en": [
+      "Using a VPN (Virtual Private Network).",
+      "Disabling cookies in browser settings.",
+      "Publishing your phone number publicly.",
+      "Using the same password for all sites.",
+      "Clicking on all pop-up windows."
+    ],
+    "answer_idx": [0, 1],
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• VPN tarmog'idan foydalanish internet-trafikni shifrlaydi, kuki-fayllarni (cookies) o'chirish esa saytlarning sizni kuzatishiga to'sqinlik qiladi. Bu shaxsiy maxfiylikni oshiradi."
+  },
+  {
+    "level": 3,
+    "id": 364543,
+    "q_ru": "Вы получили электронное письмо от вашего банка с просьбой срочно перейти по ссылке и ввести пароль для обновления безопасности. Что это за тип атаки?",
+    "q_en": "You received an email from your bank asking you to click a link and enter your password immediately to update security. What type of attack is this?",
+    "q_uz": "Sizga bankingiz nomidan xavfsizlikni yangilash uchun zudlik bilan havola orqali o'tib parolingizni kiritishni so'rab xat keldi. Bu qanday turdagi hujum?",
+    "options_ru": [
+      "Фишинг (Phishing)",
+      "DDoS-атака",
+      "Вредоносное ПО (Malware)",
+      "Ransomware (Вирус-вымогатель)"
+    ],
+    "options_en": [
+      "Phishing",
+      "DDoS attack",
+      "Malware",
+      "Ransomware"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Ishonchli tashkilotlar (bank, pochta) nomidan soxta xat yuborish orqali foydalanuvchining login va parollarini aldab olishga qaratilgan hujum turi 'Phishing' (Fishblock) deb ataladi."
+  },
+  {
+    "level": 3,
+    "id": 364544,
+    "q_ru": "Для каждого утверждения об авторском праве (Copyright) выберите «Правда» или «Ложь».",
+    "q_en": "For each statement about copyright, select True or False.",
+    "q_uz": "Mualliflik huquqi (Copyright) haqidagi har bir fikrni Haqiqat (Правда) yoki Yolg'on (Ложь) ekanligini baholang.",
+    "options_ru": [
+      "Правда ➔ Авторское право возникает автоматически в момент создания оригинального произведения в материальной форме.",
+      "Правда ➔ Авторское право защищает оригинальные литературные, драматические, музыкальные и художественные произведения.",
+      "Ложь ➔ Авторское право защищает абстрактные идеи, методы и математические концепции.",
+      "Ложь ➔ Если на произведении нет значка ©, его можно свободно копировать и использовать без разрешения."
+    ],
+    "options_en": [
+      "True ➔ Copyright arises automatically at the moment an original work is created in a tangible form.",
+      "True ➔ Copyright protects original literary, dramatic, musical, and artistic works.",
+      "False ➔ Copyright protects abstract ideas, methods, and mathematical concepts.",
+      "False ➔ If a work does not have the © symbol, it can be freely copied and used without permission."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Mualliflik huquqi asar yaratilgan paytdan boshlab avtomatik hosil bo'ladi (Haqiqat).\n• G'oyalar va uslublar mualliflik huquqi bilan himoya qilinmaydi, ularni faqat patentlash mumkin (Yolg'on).\n• Belgi (©) yo'qligi asarni mualliflik huquqidan mahrum qilmaydi (Yolg'on)."
+  },
+  {
+    "level": 3,
+    "id": 364545,
+    "q_ru": "Какая из следующих технологий используется для обеспечения анонимности пользователей путем шифрования и маршрутизации трафика через несколько узлов?",
+    "q_en": "Which of the following technologies is used to ensure user anonymity by encrypting and routing traffic through multiple nodes?",
+    "q_uz": "Foydalanuvchi trafigini shifrlash va uni bir nechta tugunlar orqali yo'naltirish orqali anonimlikni ta'minlaydigan texnologiya qaysi?",
+    "options_ru": [
+      "Сеть Tor",
+      "Протокол HTTP",
+      "Брандмауэр (Firewall)",
+      "DNS-сервер"
+    ],
+    "options_en": [
+      "Tor network",
+      "HTTP protocol",
+      "Firewall",
+      "DNS server"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Tor tarmog'i (The Onion Router) ma'lumotlarni ko'p qatlamli shifrlash va turli tugunlar (nodes) orqali yuborish orqali foydalanuvchining internetdagi to'liq anonimligini ta'minlaydi."
+  },
+  {
+    "level": 3,
+    "id": 364546,
+    "q_ru": "Что из перечисленного описывает понятие «Общественное достояние» (Public Domain) в контексте интеллектуальной собственности?",
+    "q_en": "Which of the following describes the concept of \"Public Domain\" in the context of intellectual property?",
+    "q_uz": "Intellektual mulk kontekstida 'Jamoat mulki' (Public Domain) tushunchasini nima to'g'ri ta'riflaydi?",
+    "options_ru": [
+      "Произведения, на которые истек срок действия авторских прав или которые никогда ими не защищались.",
+      "Программное обеспечение, которое продается по подписке государственным учреждениям.",
+      "Секретные документы, принадлежащие правительству.",
+      "Произведения, защищенные строгой коммерческой тайной компаний."
+    ],
+    "options_en": [
+      "Works whose copyright has expired or which were never protected by copyright.",
+      "Software sold on a subscription basis to government agencies.",
+      "Classified documents belonging to the government.",
+      "Works protected by strict corporate trade secrets."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Jamoat mulki (Public Domain) — mualliflik huquqi muddati tugagan yoki hech qachon himoya qilinmagan asarlar bo'lib, ulardan hamma ruxsatsiz va tekinga foydalanishi mumkin."
+  },
+  {
+    "level": 3,
+    "id": 364547,
+    "q_ru": "Какое из следующих действий является лучшей практикой для защиты беспроводной сети Wi-Fi от несанкционированного доступа?",
+    "q_en": "Which of the following actions is a best practice for protecting a wireless Wi-Fi network from unauthorized access?",
+    "q_uz": "Simsiz Wi-Fi tarmog'ini begona shaxslar ulanishidan himoya qilish uchun qaysi harakat eng to'g'ri va samarali hisoblanadi?",
+    "options_ru": [
+      "Включение шифрования WPA3 и смена стандартного пароля администратора роутера.",
+      "Отключение пароля на Wi-Fi для удобства гостей.",
+      "Скрытие имени сети (SSID) без установки пароля.",
+      "Использование протокола WEP для старых устройств."
+    ],
+    "options_en": [
+      "Enabling WPA3 encryption and changing the default router administrator password.",
+      "Disabling the Wi-Fi password for guest convenience.",
+      "Hiding the network name (SSID) without setting a password.",
+      "Using the WEP protocol for legacy devices."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Wi-Fi tarmog'ini himoya qilishning eng mukammal usuli — eng zamonaviy WPA3 shifrlash standartini yoqish va standart zavod parolini murakkabroq parolga almashtirishdir."
+  },
+  {
+    "level": 3,
+    "id": 364548,
+    "q_ru": "Какая из следующих угроз безопасности использует методы социальной инженерии, заставляя жертву добровольно отдать ценную информацию?",
+    "q_en": "Which of the following security threats uses social engineering techniques to trick a victim into voluntarily giving up valuable information?",
+    "q_uz": "Quyidagi xavfsizlik tahdidlaridan qaysi biri ijtimoiy muhandislik (social engineering) usullaridan foydalanib, qurbonni o'z ixtiyori bilan ma'lumot berishga majbur qiladi?",
+    "options_ru": [
+      "Претекстинг и фишинг",
+      "Сниффинг трафика",
+      "SQL-инъекция",
+      "Брутфорс (подбор паролей)"
+    ],
+    "options_en": [
+      "Pretexting and phishing",
+      "Traffic sniffing",
+      "SQL injection",
+      "Brute force (password guessing)"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Ijtimoiy muhandislik — texnik xatolardan emas, balki inson psixologiyasi va ishonchidan foydalanishdir. Preteksting (yolg'on ssenariy tuzish) va fishblock aynan shu turga kiradi."
+  },
+  {
+    "level": 3,
+    "id": 364549,
+    "q_ru": "Соотнесите типы вредоносного ПО с их ключевыми характеристиками.",
+    "q_en": "Match malware types with their key characteristics.",
+    "q_uz": "Zararli dasturlar (malware) turlarini ularning asosiy xususiyatlariga moslashtiring.",
+    "options_ru": [
+      "Маскируется под легитимное ПО, но выполняет скрытые вредоносные действия. ➔ Троян (Trojan)",
+      "Самостоятельно размножается и распространяется по компьютерным сетям без участия пользователя. ➔ Червь (Worm)",
+      "Блокирует доступ к системе или шифрует файлы, требуя деньги. ➔ Вымогатель (Ransomware)",
+      "Скрыто собирает информацию о действиях пользователя и передает её злоумышленнику. ➔ Шпионское ПО (Spyware)"
+    ],
+    "options_en": [
+      "Disguises itself as legitimate software but performs hidden malicious actions. ➔ Trojan",
+      "Self-replicates and spreads across computer networks without user intervention. ➔ Worm",
+      "Blocks access to the system or encrypts files, demanding money. ➔ Ransomware",
+      "Secretly collects information about user activities and transmits it to an attacker. ➔ Spyware"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Trojan: Foydali dastur niqobi ostidagi virus.\n• Worm (Qurt): Tarmoq orqali o'zi ko'payadigan virus.\n• Ransomware: Fayllarni qulflab pul talab qiladigan virus.\n• Spyware: Yashirincha foydalanuvchini kuzatuvchi dastur."
+  },
+  {
+    "level": 3,
+    "id": 364550,
+    "q_ru": "Для каждого утверждения о политике конфиденциальности (Privacy Policy) организации выберите «Правда» или «Ложь».",
+    "q_en": "For each statement about an organization's Privacy Policy, select True or False.",
+    "q_uz": "Tashkilotning maxfiylik siyosati (Privacy Policy) haqidagi har bir fikrni Haqiqat (Правда) yoki Yolg'on (Ложь) ekanligini baholang.",
+    "options_ru": [
+      "Правда ➔ Политика конфиденциальности должна четко описывать, какие данные собираются и как они используются.",
+      "Правда ➔ Пользователь имеет право знать, передаются ли его личные данные третьим сторонам.",
+      "Ложь ➔ Наличие политики конфиденциальности гарантирует, что сайт никогда не будет взломан.",
+      "Ложь ➔ Организации могут изменять политику конфиденциальности без какого-либо уведомления пользователей в любых юрисдикциях."
+    ],
+    "options_en": [
+      "True ➔ A privacy policy must clearly describe what data is collected and how it is used.",
+      "True ➔ The user has the right to know if their personal data is shared with third parties.",
+      "False ➔ Having a privacy policy guarantees that the site will never be hacked.",
+      "False ➔ Organizations can change their privacy policy without any user notification in any jurisdiction."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Maxfiylik siyosati qonun bo'yicha ma'lumotlar yig'ilish tartibini aniq ko'rsatishi shart (Haqiqat).\n• Ushbu hujjatning borligi sayt xavfsizligini kafolatlamaydi, u faqat huquqiy munosabatlarni tartibga soladi (Yolg'on)."
+  },
+  {
+    "level": 3,
+    "id": 364551,
+    "q_ru": "Какое из следующих расширений браузера используется для блокировки отслеживающих скриптов и рекламы, повышая приватность?",
+    "q_en": "Which of the following browser extensions is used to block tracking scripts and ads, increasing privacy?",
+    "q_uz": "Kuzatuvchi skriptlar va reklamalarni bloklash orqali brauzerda maxfiylikni oshiradigan kengaytma (extension) qaysi?",
+    "options_ru": [
+      "uBlock Origin",
+      "Adobe Flash Player",
+      "Google Translate",
+      "Microsoft Silverlight"
+    ],
+    "options_en": [
+      "uBlock Origin",
+      "Adobe Flash Player",
+      "Google Translate",
+      "Microsoft Silverlight"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• uBlock Origin — bu reklamalar, kuzatuvchi kuki va tahliliy skriptlarni bloklab, xavfsizlik va maxfiylikni ta'minlovchi eng mashhur plagin hisoblanadi."
+  },
+  {
+    "level": 3,
+    "id": 364552,
+    "q_ru": "Что такое «Двухфакторная аутентификация» (2FA)?",
+    "q_en": "What is \"Two-Factor Authentication\" (2FA)?",
+    "q_uz": "Ikki bosqichli autentifikatsiya (2FA) nima?",
+    "options_ru": [
+      "Метод защиты, требующий ввода двух разных типов данных для подтверждения личности.",
+      "Процесс ввода пароля два раза подряд для исключения опечаток.",
+      "Использование двух разных антивирусов на одном компьютере.",
+      "Вход в аккаунт одновременно с двух разных устройств."
+    ],
+    "options_en": [
+      "A security method that requires two different types of data to verify identity.",
+      "The process of entering a password twice in a row to eliminate typos.",
+      "Using two different antiviruses on one computer.",
+      "Logging into an account from two different devices at the same time."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• 2FA — bu akkauntni himoya qilish uchun parolga qo'shimcha ravishda ikkinchi mustaqil omilni (masalan, telefonga keladigan SMS kodni) so'rash tizimidir."
+  },
+  {
+    "level": 3,
+    "id": 364553,
+    "q_ru": "Для каждого утверждения о цифровом этикете (Netiquette) выберите «Правда», если оно отражает вежливое онлайн-поведение, или «Ложь», если нет.",
+    "q_en": "For each statement about netiquette, select True or False.",
+    "q_uz": "Raqamli odob-axloq (Netiquette) qoidalariga ko'ra, berilgan fikrlarni Haqiqat (Правда) yoki Yolg'on (Ложь) ekanligini ajrating.",
+    "options_ru": [
+      "Правда ➔ Писать сообщения строчными буквами, избегая постоянного использования CAPS LOCK.",
+      "Правда ➔ Проявлять уважение к чужому мнению, даже если оно отличается от вашего.",
+      "Ложь ➔ Использование нецензурной лексики в комментариях для выражения сильных эмоций.",
+      "Ложь ➔ Пересылка личных сообщений других людей в публичные чаты без их согласия."
+    ],
+    "options_en": [
+      "True ➔ Writing messages in lowercase, avoiding constant use of CAPS LOCK.",
+      "True ➔ Showing respect for other people's opinions, even if they differ from yours.",
+      "False ➔ Using profane language in comments to express strong emotions.",
+      "False ➔ Forwarding other people's private messages to public chats without their consent."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• CAPS LOCK'da yozish internetda baqirish hisoblanadi, undan qochish — madaniyat belgisidir (Haqiqat).\n• Birovning shaxsiy xatlarini ruxsatsiz guruhlarga tarqatish tarmoq odobiga mutlaqo ziddir (Yolg'on)."
+  },
+  {
+    "level": 3,
+    "id": 364554,
+    "q_ru": "Какое из следующих понятий описывает неравный доступ к современным информационным технологиям в разных слоях общества или регионах?",
+    "q_en": "Which of the following concepts describes unequal access to modern information technology across different social groups or regions?",
+    "q_uz": "Jamiyatning turli qatlamlari yoki hududlarida zamonaviy axborot texnologiyalaridan foydalanish imkoniyatining teng emasligi nima deb ataladi?",
+    "options_ru": [
+      "Цифровой разрыв (Digital Divide)",
+      "Цифровая грамотность",
+      "Глобализация",
+      "Технологическая сингулярность"
+    ],
+    "options_en": [
+      "Digital Divide",
+      "Digital literacy",
+      "Globalization",
+      "Technological singularity"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Dunyoda yoki bir mamlakat ichida internet va texnologiya yetib borgan va yetib bormagan hududlar o'rtasidagi tafovvut 'Raqamli uzilish / tengsizlik' (Digital Divide) deyiladi."
+  },
+  {
+    "level": 3,
+    "id": 364574,
+    "q_ru": "Вы получили задание проверить перспективность результатов поиска и цифровых артефактов. Для каждого утверждения о проверке перспективности упорядочьте его по степени истинности или ложности.",
+    "q_en": "You have been assigned to verify the perspective of search results and digital artifacts. For each statement about perspective verification, arrange it by its degree of truth or falsehood.",
+    "q_uz": "Sizga qidiruv natijalari va raqamli artefaktlarning xolisligini (perspektivasini) tekshirish vazifasi berildi. Har bir bayonotni haqiqat (Правда) yoki yolg'on (Ложь) ekanligiga qarab ajrating.",
+    "options_ru": [
+      "Правда ➔ Правое крыло отдает предпочтение свободному предпринимательству, частной собственности и социально-консервативным идеям.",
+      "Правда ➔ Левое крыло отдает предпочтение социальному равенству, либерализму и revolutionary идеям.",
+      "Ложь ➔ Сюжеты, публикуемые крупной медиасетью, всегда представляют обе стороны и равную перспективу.",
+      "Ложь ➔ Все истории, опубликованные в Интернете, имеют нейтральную точку зрения."
+    ],
+    "options_en": [
+      "True ➔ The right wing favors free enterprise, private property, and socially conservative ideas.",
+      "True ➔ The left wing favors social equality, liberalism, and revolutionary ideas.",
+      "False ➔ Stories published by a major media network always present both sides and an equal perspective.",
+      "False ➔ All stories published on the Internet have a neutral point of view."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Siyosiy tushunchalar bo'yicha: o'ng qanot xususiy mulkchilikni, chap qanot ijtimoiy tenglikni afzal ko'rishi — Haqiqat.\n• OAV yoki internetdagi hamma xabarlar har doim xolis va neytral bo'ladi degan qarash — mutlaqo Yolg'on."
+  },
+  {
+    "level": 3,
+    "id": 364577,
+    "q_ru": "Каждый ученик в вашем классе представляет исследование на спорную тему... Соотнесите каждый инструмент проверки фактов с его функцией. Чтобы ответить, перетащите каждый инструмент из колонки слева к его функции справа.",
+    "q_en": "Match each fact-checking tool with its function.",
+    "q_uz": "Har bir faktlarni tekshirish (fact-checking) vositasini uning vazifasiga moslashtiring.",
+    "options_ru": [
+      "Приложение Newstrition®, интерактивная информация о питании новостей ➔ Our.news",
+      "Ищет загруженное изображение и выдает даты появления ➔ Tineye.com",
+      "Сеть ученых, сортирующих факты о климате ➔ ClimateFeedback.org",
+      "Охотится за трендовыми историями и фейками для быстрой проверки ➔ Leadstories.com"
+    ],
+    "options_en": [
+      "Newstrition® app providing interactive info on news ➔ Our.news",
+      "Searches uploaded image and shows dates of appearance ➔ Tineye.com",
+      "Network of scientists sorting climate change facts ➔ ClimateFeedback.org",
+      "Hunts for trending stories and fake posts to verify ASAP ➔ Leadstories.com"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• 'Newstrition®' mobil ilovasi — 'Our.news' loyihasiga tegishli.\n• Rasmlar qayerda paydo bo'lganini qidirish — 'Tineye.com' xizmati.\n• Iqlim o'zgarishi bo'yicha ilmiy tekshirishlar — 'ClimateFeedback.org' sayti.\n• Trenddagi feyklarni tezkor fosh qilish — 'Leadstories.com' platformasi."
+  },
+  {
+    "level": 3,
+    "id": 364579,
+    "q_ru": "Вы получили задание создать видеопрезентацию об историческом значении памятников. Для каждого утверждения о редактировании видео- и аудиоконтента оцените его как Истинное или Ложное.",
+    "q_en": "You have been assigned to create a video presentation on the historical significance of monuments. For each statement about editing video and audio content, evaluate it as True or False.",
+    "q_uz": "Sizga yodgorliklarning tarixiy ahamiyati haqida video taqdimot yaratish vazifasi berildi. Video va audio kontentni tahrirlash haqidagi har bir fikrni Haqiqat (Правда) yoki Yolg'on (Ложь) ekanligini baholang.",
+    "options_ru": [
+      "Правда ➔ Правда, вы можете сделать полированное видео, используя только стоковые материалы.",
+      "Правда ➔ Правда, вы можете использовать неподвижные изображения и некоторые простые приемы редактирования для создания визуально интересного видео.",
+      "Ложь ➔ Обычно нецелесообразно озвучивать старое видео, чтобы перепрофилировать его."
+    ],
+    "options_en": [
+      "True ➔ True, you can make a polished video using only stock footage.",
+      "True ➔ True, you can use still images and some simple editing techniques to create a visually interesting video.",
+      "False ➔ It is usually inappropriate to voice over an old video to repurpose it."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Faqat tayyor stok materiallaridan yoki statik rasmlardan foydalanib ajoyib video yig'ish mumkin (Haqiqat).\n• Eski videolarga qayta ovoz berib ishlatish xato degan gap — Yolg'on, chunki bu kontentni yangilashning samarali usulidir."
+  },
+  {
+    "level": 3,
+    "id": 364581,
+    "q_ru": "Какой из этих форматов файлов способен хранить аудио-, видео- и другие медиафайлы, содержащие данные, а не код?",
+    "q_en": "Which of these file formats is capable of storing audio, video, and other media files containing data rather than code?",
+    "q_uz": "Ushbu fayl formatlaridan qaysi biri kodni emas, balki ma'lumotlarni o'z ichiga olgan audio, video va boshqa mediafayllarni saqlashga qodir?",
+    "options_ru": [
+      "MP3",
+      "MP4",
+      "WAV",
+      "WMA"
+    ],
+    "options_en": [
+      "MP3",
+      "MP4",
+      "WAV",
+      "WMA"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• MP3, WAV va WMA faqat ovoz yozuvlari uchun. MP4 esa universal multimedia konteyneri bo'lib, o'z ichida ham audio, ham video ma'lumotlarni birga saqlay oladi."
+  },
+  {
+    "level": 3,
+    "id": 364583,
+    "q_ru": "При выборе наилучшего способа распространения информации следует учитывать аудиторию и доступную форму коммуникации. Для каждого утверждения расположите их в соответствии с тем, демонстрирует ли оно наилучшую форму коммуникации для данной аудитории или нет.",
+    "q_en": "When choosing the best way to distribute information, consider the audience and the form of communication available. For each statement, arrange them according to whether it demonstrates the best form of communication for that audience or not.",
+    "q_uz": "Ma'lumotni tarqatishda auditoriyaga mos muloqot shaklini tanlash kerak. Har bir bayonot berilgan auditoriya uchun eng yaxshi muloqot shaklini ko'rsatishi yoki ko'rsatmasligiga qarab joylashtiring.",
+    "options_ru": [
+      "Лучшая форма общения ➔ Директор по маркетингу выбирает видео для ознакомления пользователей с простотой управления новой швейной машинкой.",
+      "Лучшая форма общения ➔ Инструктор по медитации создает аудиоподкаст для тех, кто хочет научиться ее методам.",
+      "Не лучшая форма общения ➔ Автор еженедельного информационного бюллетеня о биржевых прогнозах по подписке решает разместить информацию для общественности в социальных сетях."
+    ],
+    "options_en": [
+      "Best form of communication ➔ A marketing director chooses a video to introduce users to the ease of operating a new sewing machine.",
+      "Best form of communication ➔ A meditation instructor creates an audio podcast for those who want to learn her methods.",
+      "Not the best form of communication ➔ The author of a weekly subscription stock forecast newsletter decides to post information to the public on social media."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Mashina ishlashini ko'rsatishga video, meditatsiya uchun esa ko'z yumib eshitishga audio — eng yaxshi formatlardir.\n• Pullik obunali tahlillarni ochiq ijtimoiy tarmoqlarga bepul joylash — mutlaqo xato strategiya."
+  },
+  {
+    "level": 3,
+    "id": 364585,
+    "q_ru": "Какие два программных средства лучше всего подходят для создания деловой графики? (Выберите два).",
+    "q_en": "Which two software tools are best suited for creating business graphics? (Choose two).",
+    "q_uz": "Biznes grafikalarini (logotiplar, illyustratsiyalar) yaratish uchun qaysi ikkita dasturiy vosita eng mos keladi? (Ikkita javobni tanlang).",
+    "options_ru": [
+      "Affinity Designer",
+      "Adobe Illustrator",
+      "Google Таблицы",
+      "Microsoft Excel",
+      "Intuit QuickBooks"
+    ],
+    "options_en": [
+      "Affinity Designer",
+      "Adobe Illustrator",
+      "Google Sheets",
+      "Microsoft Excel",
+      "Intuit QuickBooks"
+    ],
+    "answer_idx": [0, 1],
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Professional darajadagi vektorli grafikalar, brending va biznes-illyustratsiyalar yaratish uchun 'Adobe Illustrator' va 'Affinity Designer' dasturlari ishlatiladi."
+  },
+  {
+    "level": 3,
+    "id": 364586,
+    "q_ru": "Какие два программных средства лучше всего подходят для построения таблиц, графиков и визуальных представлений исходных данных? (Выберите два).",
+    "q_en": "Which two software tools are best suited for creating tables, charts, and visual representations of raw data? (Choose two).",
+    "q_uz": "Jadvallar, grafiklar tuzish va xom ma'lumotlarni vizual shaklda taqdim etish uchun qaysi ikkita dasturiy vosita eng mos keladi? (Ikkita javobni tanlang).",
+    "options_ru": [
+      "Intuit QuickBooks",
+      "Google Таблицы",
+      "Adobe Illustrator",
+      "Affinity Designer",
+      "Microsoft Excel"
+    ],
+    "options_en": [
+      "Intuit QuickBooks",
+      "Google Sheets",
+      "Adobe Illustrator",
+      "Affinity Designer",
+      "Microsoft Excel"
+    ],
+    "answer_idx": [1, 4],
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Raqamli xom ma'lumotlar bilan ishlash, formulalar orqali hisoblash va diagrammalar qurish uchun 'Microsoft Excel' va 'Google Sheets' eng to'g'ri tanlovdir."
+  },
+  {
+    "level": 3,
+    "id": 364588,
+    "q_ru": "Какие два обстоятельства приведут к созданию новой облачной версии в Google Drive? (Выберите два)",
+    "q_en": "Which two circumstances will lead to the creation of a new cloud version in Google Drive? (Choose two)",
+    "q_uz": "Google Drive tizimida yangi bulutli versiya (history version) yaratilishiga qaysi ikkita omil sabab bo'ladi? (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Редактирование документа Google.",
+      "Загрузка файла.",
+      "Просмотр содержимого папки.",
+      "Переименование папки.",
+      "Копирование папки."
+    ],
+    "options_en": [
+      "Editing a Google document.",
+      "Uploading a file.",
+      "Viewing folder contents.",
+      "Renaming a folder.",
+      "Copying a folder."
+    ],
+    "answer_idx": [0, 3],
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• GMetrix testining ichki tizim logikasiga ko'ra, bulutli platformada yangi o'zgarishlar tarixi versiyasini yaratadigan ikkita harakat: Google Docs ichida hujjatni to'g'ridan-to'g'ri tahrirlash hamda papka nomini o'zgartirishdir."
+  },
+  {
+    "level": 3,
+    "id": 364589,
+    "q_ru": "Какое самое высокое разрешение экрана?",
+    "q_en": "What is the highest screen resolution?",
+    "q_uz": "Berilgan ekran o'lchamlari (resolution) ichida eng yuqori ko'rsatkichga egasi qaysi biri?",
+    "options_ru": [
+      "1366×768",
+      "1920×1080",
+      "1440×900",
+      "1536×864"
+    ],
+    "options_en": [
+      "1366×768",
+      "1920×1080",
+      "1440×900",
+      "1536×864"
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Ro'yxatdagi o'lchamlar ichida eng ko'p pikselga ega bo'lgan va eng aniq/sifatli tasvirni beradigan o'lcham — 1920×1080 (Full HD) hisoblanadi."
+  },
+  {
+    "level": 3,
+    "id": 364590,
+    "q_ru": "Какие две корректировки сделают веб-сайт более доступным для пользователей с нарушениями зрения? (Выберите два)",
+    "q_en": "Which two adjustments will make a website more accessible to visually impaired users? (Choose two)",
+    "q_uz": "Qaysi ikkita o'zgartirish veb-saytni ko'rish qobiliyati zaif foydalanuvchilar uchun qulayroq qiladi? (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Используйте темный фон и шрифты темно-синего, коричневого или черного цвета.",
+      "Избегайте монохроматическойковой гаммы.",
+      "Используйте контрастные цвета.",
+      "Используйте цвет для передачи информации.",
+      "Используйте текстуры и узоры."
+    ],
+    "options_en": [
+      "Use a dark background and fonts that are dark blue, brown, or black.",
+      "Avoid a monochromatic color scheme.",
+      "Use contrasting colors.",
+      "Use color to convey information.",
+      "Use textures and patterns."
+    ],
+    "answer_idx": [2, 4],
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Zaif ko'radigan insonlar matnni oson ajratib olishlari uchun yuqori kontrastli ranglar ishlatish hamda elementlar farqini ko'rsatish uchun rangdan tashqari maxsus tekstura va naqshlardan (textures and patterns) foydalanish zarur."
+  },
+  {
+    "level": 3,
+    "id": 364591,
+    "q_ru": "Какие два наиболее популярных способа разграничения заголовков параграфов и основного текста на сайте? (Выберите два)",
+    "q_en": "Which two are the most popular ways to differentiate paragraph headings and body text on a website? (Choose two)",
+    "q_uz": "Veb-saytda paragraf sarlavhalari va asosiy matnni bir-biridan vizual ajratishning eng ommabop ikkita usuli qaysi? (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Используйте один и тот же шрифт для заголовков и основного текста.",
+      "Используйте только шрифты с засечками.",
+      "Используйте шрифт одинакового размера как для заголовков, так и для основного текста.",
+      "Используйте один шрифт для заголовков и другой - для основного текста.",
+      "Используйте более крупный шрифт для заголовков, чем для основного текста."
+    ],
+    "options_en": [
+      "Use the same font for headings and body text.",
+      "Use only serif fonts.",
+      "Use the same font size for both headings and body text.",
+      "Use one font for headings and a different font for body text.",
+      "Use a larger font for headings than for body text."
+    ],
+    "answer_idx": [3, 4],
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Matnlar iyerarxiyasini to'g'ri ko'rsatish uchun sarlavhalarni har doim yirikroq hajmda yozish hamda ularga asosiy matndan farq qiluvchi boshqa shrift uslubini berish kerak."
+  },
+  {
+    "level": 3,
+    "id": 364592,
+    "q_ru": "Что такое удобочитаемость?",
+    "q_en": "What is readability?",
+    "q_uz": "Matnning o'qilishi osonligi (readability) nima?",
+    "options_ru": [
+      "Шрифты красного цвета.",
+      "Текст, который переполняет страницу.",
+      "Качество текста, который можно прочитать или расшифровать.",
+      "Слишком большой размер шрифта для четкого восприятия."
+    ],
+    "options_en": [
+      "Red fonts.",
+      "Text that overflows the page.",
+      "The quality of text that can be read or deciphered.",
+      "Font size too large for clear perception."
+    ],
+    "answer_idx": 2,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Readability — bu sahifadagi matnning shrifti, foni va joylashuvi inson ko'zi uchun qanchalik qulay ekanligi va uni tezda o'qib, anglab olish sifat darajasidir."
+  },
+  {
+    "level": 3,
+    "id": 364593,
+    "q_ru": "Что такое alt-текст?",
+    "q_en": "What is alt text?",
+    "q_uz": "Alt-matn (alt text) nima?",
+    "options_ru": [
+      "Описывает функцию изображения.",
+      "Позволяет вписать в сюжет альтернативные концовки.",
+      "Предлагает пользователям альтернативные языки для просмотра веб-страниц.",
+      "Изменение содержимого веб-страницы."
+    ],
+    "options_en": [
+      "Describes the function of an image.",
+      "Allows alternative endings to be written into the plot.",
+      "Offers users alternative languages for viewing web pages.",
+      "Changing the content of a web page."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Alt-matn (muqobil matn) — bu saytdagi rasmlar yuklanmay qolganda yoki ko'zi ojizlar uchun maxsus dasturlar rasm o'rniga o'qib berishi uchun mo'ljallangan rasm vazifasining matnli tavsifidir."
+  },
+  {
+    "level": 3,
+    "id": 364594,
+    "q_ru": "Какие факторы будет использовать судья, чтобы определить, было ли нарушено добросовестное использование авторских прав? Для каждого утверждения выберите Да, если это фактор, или Нет, если нет.",
+    "q_en": "Which factors will a judge use to determine if fair use was violated?",
+    "q_uz": "Mualliflik huquqidan adolatli foydalanish (Fair Use) buzilganligini aniqlashda sudya qaysi omillarni hisobga oladi? Tegishli ravishda Да yoki Нет variantini tanlang.",
+    "options_ru": [
+      "Назначение и использование копии. ➔ Да",
+      "Характер копируемой работы. ➔ Да",
+      "Объем и сытность принятой порции. ➔ Да",
+      "Предназначена ли копия для использования учеником или учителем. ➔ Нет",
+      "Влияние копии на потенциальный рынок оригинального произведения. ➔ Да"
+    ],
+    "options_en": [
+      "Purpose and character of the use. ➔ Yes",
+      "Nature of the copyrighted work. ➔ Yes",
+      "Amount and substantiality of the portion used. ➔ Yes",
+      "Whether the copy is intended for use by a student or teacher. ➔ No",
+      "Effect of the use upon the potential market for the original work. ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Fair Use'ni aniqlashning 4 ta klassik omili bor: foydalanish maqsadi, asar tabiati, ko'chirilgan qism hajmi va bozorga ta'siri (1, 2, 3 va 5 — 'Да'). Foydalanuvchi aynan o'quvchi ekanligi mustaqil omil emas (4 — 'Нет')."
+  },
+  {
+    "level": 3,
+    "id": 364595,
+    "q_ru": "Как называются человеческие идеи, которые защищены на международном уровне авторским правом, патентом, торговой маркой или коммерческой тайной?",
+    "q_en": "What are human ideas called that are protected internationally by copyright, patent, trademark, or trade secret?",
+    "q_uz": "Mualliflik huquqi, patent yoki savdo belgisi bilan xalqaro miqyosda himoyalangan insoniy g'oyalar va ijod mahsullari nima deb ataladi?",
+    "options_ru": [
+      "Интеллектуальная собственность",
+      "Недвижимое имущество",
+      "Воображаемая собственность",
+      "Материальное имущество"
+    ],
+    "options_en": [
+      "Intellectual property",
+      "Real estate",
+      "Imaginary property",
+      "Tangible property"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Inson ongi va aqliy mehnati mahsuli bo'lgan barcha g'oyalar, kashfiyotlar va san'at asarlari huquqiy tilda 'Intellektual mulk' (Intellectual property) deb ataladi."
+  },
+  {
+    "level": 3,
+    "id": 364596,
+    "q_ru": "Вы разрабатываете веб-сайт, принимающий онлайн-заказы... Вы решили создать прототип веб-сайта, прежде чем сделать его общедоступным. Выберите 'Да', если прототип достигнет поставленной цели, или 'Нет', если не достигнет.",
+    "q_en": "You are developing a website that accepts online orders... Select Yes if the prototype will achieve the goal, or No if it will not.",
+    "q_uz": "Onlayn buyurtma oladigan sayt yaratmoqdasiz va uni ishga tushirishdan oldin prototip tayyorladingiz. Prototip qo'yilgan maqsadga erishsa 'Ha' (Да), aks holda 'Yo'q' (Нет) variantini belgilang.",
+    "options_ru": [
+      "Вам нужна избранная аудитория, чтобы проверить навигацию и удобство оформления заказа ➔ Да",
+      "Вы хотите собирать отзывы покупателей о товарах, продаваемых на сайте ➔ Нет",
+      "Вы хотите проверить точность потока от заказа до отправки ➔ Да"
+    ],
+    "options_en": [
+      "You need a select audience to test navigation and checkout user experience ➔ Yes",
+      "You want to collect customer reviews on the products sold on the site ➔ No",
+      "You want to test the accuracy of the order-to-shipment flow ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Prototip sayt navigatsiyasi va buyurtma zanjirini sinash uchun kerak (1 va 3 — 'Да'). Mahsulotlarning o'zi haqida mijozlardan sharhlar yig'ish prototip bosqichida imkonsiz (2 — 'Нет')."
+  },
+  {
+    "level": 3,
+    "id": 364604,
+    "q_ru": "Вашей команде поручено создать презентацию для учеников 5-6 лет. Какое действие повысит вовлеченность аудитории во время презентации?",
+    "q_en": "Your team is tasked with creating a presentation for students aged 5-6. What action will increase audience engagement during the presentation?",
+    "q_uz": "Jamoangizga 5-6 yoshli bolalar uchun taqdimot yaratish vazifasi berildi. Bolalar diqqatini eng yaxshi jalb qiluvchi usul qaysi?",
+    "options_ru": [
+      "Поместите весь сценарий презентации на слайды, чтобы аудитория могла его прочитать.",
+      "Используйте в презентации только визуальные эффекты и никаких разговоров.",
+      "Спросите учеников, чему они хотят научиться, а затем сделайте импровизированную презентацию.",
+      "На каждом слайде разместите изображение. Повествование на каждом слайде должно быть очень кратким и интересным."
+    ],
+    "options_en": [
+      "Place the entire presentation script on the slides so the audience can read it.",
+      "Use only visuals in the presentation and no talking.",
+      "Ask students what they want to learn and then do an impromptu presentation.",
+      "Place an image on each slide. The narration on each slide should be very brief and engaging."
+    ],
+    "answer_idx": 3,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Kichik yoshdagi bolalar katta matnlarni o'qiy olishmaydi. Ularning diqqatini faqat har bir slaydda yorqin rasmlar bo'lishi hamda spikerning juda qisqa va qiziqarli nutqi ushlab tura oladi."
+  },
+  {
+    "level": 3,
+    "id": 364605,
+    "q_ru": "Члены вашей команды находятся в разных часовых поясах. Для каждого утверждения выберите 'Да', если оно будет успешным в виртуальной команде, или 'Нет', если не будет.",
+    "q_en": "Your team members are in different time zones. For each statement, select Yes if it will be successful in a virtual team, or No if it will not.",
+    "q_uz": "Jamoangiz a'zolari turli vaqt zonalarida joylashgan. Virtual jamoani to'g'ri boshqarish bo'yicha berilgan fikrlarga Да yoki Нет deb javob bering.",
+    "options_ru": [
+      "Настаивать на прямой видеосвязи поздно ночью ➔ Нет",
+      "Создать общее облачное хранилище для файлов ➔ Да",
+      "Требовать ежемесячных платных поездок для встреч ➔ Нет",
+      "По возможности использовать асинхронное общение ➔ Да"
+    ],
+    "options_en": [
+      "Insist on live video communication late at night ➔ No",
+      "Create a shared repository for files and collaboration ➔ Yes",
+      "Require monthly travel expenses for in-person meetings ➔ No",
+      "Use asynchronous forms of communication whenever possible ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Turli soat mantiqlaridagi xodimlarni tunda majburlab chaqirish noto'g'ri (1 va 3 — 'Нет'). Umumiy bulutli ombor va asinxron (darhol javob talab qilmaydigan) muloqot tizimi — muvaffaqiyat garovidir (2 va 4 — 'Да')."
+  },
+  {
+    "level": 3,
+    "id": 364606,
+    "q_ru": "Вы работаете в колл-центре. Ваша работа заключается в решении проблем клиентов... Выберите 'Да', если действие повышает доверие клиентов, или 'Нет', если не повышает.",
+    "q_en": "You work in a call center. Your job is to resolve customer issues... Select Yes if it increases customer confidence, or No if it does not.",
+    "q_uz": "Koll-markazda ishlaysiz. Mijozlarning ishonchini oshirish va muammolarini hal qilish bo'yicha keltirilgan usullarga Да yoki Нет variantlarini tanlang.",
+    "options_ru": [
+      "После того как клиент изложит проблему, перефразируйте то, что он сказал ➔ Да",
+      "Расскажите клиенту о том, как компания ценит его бизнес ➔ Да",
+      "Если в голосе клиента звучит злость, предложите ему отправиться в другое место ➔ Нет",
+      "Отвечайте тем же языком, который использует клиент, даже если этот язык вульгарен ➔ Нет",
+      "Заверьте клиента, что вы решите проблему ➔ Да"
+    ],
+    "options_en": [
+      "After the customer explains the problem, paraphrase what they said ➔ Yes",
+      "Tell the customer how much the company values their business ➔ Yes",
+      "If the customer sounds angry or frustrated, suggest they go elsewhere ➔ No",
+      "Respond with the same language the customer uses, even if it is vulgar ➔ No",
+      "Assure the customer that you will resolve the problem ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Mijozni eshitib uning muammosini qayta tushuntirish, kompaniya uni qadrlashini aytish va yordamga ishontirish to'g'ri (1, 2 va 5 — 'Да'). Mijozga qo'pol javob berish yoki haydash qat'iyan taqiqlanadi (3 va 4 — 'Нет')."
+  },
+  {
+    "level": 3,
+    "id": 364607,
+    "q_ru": "Вы разрабатываете систему безопасности для веб-сайта. Что следует использовать в паре с паролем для создания многофакторной аутентификации?",
+    "q_en": "You are developing a security system for a website. What should be used in conjunction with a password to create multi-factor authentication?",
+    "q_uz": "Veb-sayt xavfsizlik tizimini yaratmoqdasiz. Ko'p faktorli autentifikatsiya (MFA) hosil qilish uchun parol bilan birga nimadan foydalanish kerak?",
+    "options_ru": [
+      "Девичья фамилия матери",
+      "Номер телефона",
+      "Отпечатки пальцев",
+      "Идентификатор пользователя"
+    ],
+    "options_en": [
+      "Mother's maiden name",
+      "Phone number",
+      "Fingerprints",
+      "User ID"
+    ],
+    "answer_idx": 2,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• GMetrix testining rasmiy xavfsizlik kalitiga ko'ra, paroldan (biladigan narsa) tashqari eng ishonchli ikkinchi xavfsizlik faktori sifatida aynan biometrik ma'lumotlar — 'Barmoq izlari' (Fingerprints) tanlangan."
+  },
+  {
+    "level": 3,
+    "id": 364608,
+    "q_ru": "Какой навык утрачивается в обществе из-за зависимости от технологий?",
+    "q_en": "Which skill is being lost in society due to dependence on technology?",
+    "q_uz": "Texnologiyalarga (GPS navigatorlarga) haddan tashqari qaramlik sababli jamiyatda qaysi ko'nikma tobora yo'qolib bormoqda?",
+    "options_ru": [
+      "Навигация по карте",
+      "Восприятие глубины",
+      "Организация",
+      "Ловкость"
+    ],
+    "options_en": [
+      "Map navigation",
+      "Depth perception",
+      "Organization",
+      "Dexterity"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Smartfonlardagi onlayn navigatorlar tayyor yo'nalish ko'rsatishi oqibatida, insonlarda qog'oz xaritalardan mustaqil foydalanish va joylarni mo'ljallash (Map navigation) ko'nikmasi yo'qolib bormoqda."
+  },
+  {
+    "level": 3,
+    "id": 364609,
+    "q_ru": "Что является самым быстрорастущим видом отходов в мире?",
+    "q_en": "What is the fastest-growing waste stream in the world?",
+    "q_uz": "Hozirgi kunda dunyoda eng tez sur'atlar bilan o'sib borayotgan chiqindi turi qaysi?",
+    "options_ru": [
+      "Переработанные драгоценные металлы",
+      "Искусственный интеллект",
+      "Электронные отходы",
+      "Неиспользованные лицензии на программное обеспечение"
+    ],
+    "options_en": [
+      "Recycled precious metals",
+      "Artificial intelligence",
+      "Electronic waste",
+      "Unused software licenses"
+    ],
+    "answer_idx": 2,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Texnologiyalarning tez eskirishi sababli odamlar eski telefon va kompyuterlarni tashlab yuborishadi. Shuning uchun elektron chiqindilar (E-waste) eng tez ko'payayotgan chiqindidir."
+  },
+  {
+    "level": 3,
+    "id": 364610,
+    "q_ru": "Определите подходящий визуальный формат для выражения описанного набора данных. Завершите предложения, выбрав правильный вариант из каждого выпадающего списка.",
+    "q_en": "Determine the appropriate visual format to express the described data set. Complete the sentences by choosing the correct option from each drop-down list.",
+    "q_uz": "Tavsiflangan ma'lumotlar turi uchun mos keladigan diagramma formatini aniqlang va gaplarni yakunlang.",
+    "options_ru": [
+      "Части и целое в небольшом наборе данных ➔ Пирожная диаграмма",
+      "Изменение рядов данных с течением времени ➔ Линейный график",
+      "Отображение объемов продаж различных товаров ➔ Колоночная диаграмма"
+    ],
+    "options_en": [
+      "Parts and wholes in a small dataset ➔ Pie chart",
+      "Data series changing over time ➔ Line graph",
+      "Sales volumes of various products ➔ Column chart"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Ulushlarni (foizlarni) ko'rsatishga Aylana (Pie) diagramma, vaqt bo'yicha o'zgarishga Chiziqli (Line) grafik, tovarlar sotuvini solishtirishga esa Ustunli (Column) diagramma eng mos keladi."
+  },
+  {
+    "level": 3,
+    "id": 364611,
+    "q_ru": "Вы составляете блок-схему для сопровождения набора инструкций. Завершите предложения, выбрав правильный вариант из каждого выпадающего списка в соответствии с буквами на картинке.",
+    "q_en": "You are creating a flowchart to accompany a set of instructions. Complete the sentences by choosing the correct option from each drop-down list.",
+    "q_uz": "Yo'riqnoma uchun blok-sxema yaratmoqdasiz. Quyidagi rasmga asoslanib shakllarning to'g'ri vazifalarini moslashtiring.",
+    "options_ru": [
+      "Решение (Да/Нет, Истина/Ложь) ➔ B",
+      "Вход или Выход (Input/Output) ➔ C",
+      "Начало и конец (Start/End) ➔ A",
+      "Процессы и действия (Process) ➔ D"
+    ],
+    "options_en": [
+      "Decision (Yes/No, True/False) ➔ B",
+      "Input or Output ➔ C",
+      "Start and End ➔ A",
+      "Processes in a flowchart ➔ D"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• A (Oval) — Start/End (boshlanishi va tugashi).\n• B (Romb) — Decision (shart tekshirish/qaror).\n• C (Parallelogramm) — Input/Output (ma'lumot kiritish-chiqarish).\n• D (To'rtburchak) — Process (amal/bajariladigan ish)."
+  }
+]

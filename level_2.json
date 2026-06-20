@@ -1,0 +1,951 @@
+[
+  {
+    "level": 2,
+    "id": 361750,
+    "q_ru": "Каковы два преимущества использования облачных технологий для хранения файлов? (Выберите два)",
+    "q_en": "What are two advantages of using cloud technology for file storage? (Choose two)",
+    "q_uz": "Fayllarni saqlashda bulutli texnologiyalardan (cloud storage) foydalanishning ikkita asosiy afzalligini ko'rsating. (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Доступ к файлам с любого устройства, подключенного к Интернету.",
+      "Легко делиться файлами с другими пользователями.",
+      "Файлы защищены от любых видов вирусов.",
+      "Облачное хранилище всегда абсолютно бесплатно."
+    ],
+    "options_en": [
+      "Access to files from any device connected to the Internet.",
+      "Easily share files with other users.",
+      "Files are protected from all types of viruses.",
+      "Cloud storage is always completely free."
+    ],
+    "answer_idx": [0, 1],
+    "explanation": "💡 Izoh:\n• Bulutli saqlash (Google Drive, OneDrive va h.k.) fayllarga internet bor istalgan joydan va qurilmadan kirish (1-band) hamda ularni boshqalar bilan oson ulashish (2-band) imkonini beradi."
+  },
+  {
+    "level": 2,
+    "id": 361751,
+    "q_ru": "Что из перечисленного является примером операционной системы?",
+    "q_en": "Which of the following is an example of an operating system?",
+    "q_uz": "Quyidagilardan qaysi biri operatsion tizimga (OS) misol bo'ladi?",
+    "options_ru": [
+      "Microsoft Windows",
+      "Google Chrome",
+      "Microsoft Word",
+      "Adobe Photoshop"
+    ],
+    "options_en": [
+      "Microsoft Windows",
+      "Google Chrome",
+      "Microsoft Word",
+      "Adobe Photoshop"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Windows, macOS, Linux, Android — bular operatsion tizimlardir. Chrome — brauzer, Word — matn muharriri, Photoshop — grafik dastur."
+  },
+  {
+    "level": 2,
+    "id": 361752,
+    "q_ru": "Какое устройство используется для ввода данных в компьютер?",
+    "q_en": "Which device is used to enter data into a computer?",
+    "q_uz": "Kompyuterga ma'lumotlarni kiritish uchun qaysi qurilma ishlatiladi? (Input device)",
+    "options_ru": [
+      "Клавиатура",
+      "Монитор",
+      "Принтер",
+      "Колонки"
+    ],
+    "options_en": [
+      "Keyboard",
+      "Monitor",
+      "Printer",
+      "Speakers"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Klaviatura va sichqoncha — ma'lumot kiritish qurilmalari (Input). Monitor, printer va kolonka esa ma'lumotni tashqariga chiqarish qurilmalaridir (Output)."
+  },
+  {
+    "level": 2,
+    "id": 361753,
+    "q_ru": "Какое расширение файла обычно указывает на исполняемую программу в Windows?",
+    "q_en": "Which file extension web typically indicates an executable program in Windows?",
+    "q_uz": "Windows tizimida qaysi fayl kengaytmasi (extension) odatda ishga tushiriladigan dasturni anglatadi?",
+    "options_ru": [
+      ".exe",
+      ".docx",
+      ".mp3",
+      ".pdf"
+    ],
+    "options_en": [
+      ".exe",
+      ".docx",
+      ".mp3",
+      ".pdf"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• .exe (executable) — Windows'da dasturlarni ishga tushiruvchi fayl formati hisoblanadi. .docx — matn, .mp3 — audio, .pdf — elektron hujjat."
+  },
+  {
+    "level": 2,
+    "id": 361754,
+    "q_ru": "Что такое фишинг (Phishing)?",
+    "q_en": "What is phishing?",
+    "q_uz": "Fisheng (Phishing) nima?",
+    "options_ru": [
+      "Попытка обманным путем получить конфиденциальную информацию, выдавая себя за надежный источник.",
+      "Процесс очистки компьютера от пыли.",
+      "Поиск неисправностей в сетевом кабеле.",
+      "Скачивание бесплатных картинок из Интернета."
+    ],
+    "options_en": [
+      "An attempt to trick users into giving up confidential information by posing as a trustworthy source.",
+      "The process of cleaning a computer from dust.",
+      "Troubleshooting a network cable.",
+      "Downloading free images from the Internet."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Fishing — firgarlik turi bo'lib, xakerlar o'zlarini ishonchli tashkilot (bank, ijtimoiy tarmoq) sifatida ko'rsatib, foydalanuvchilarning parol va karta ma'lumotlarini o'g'irlashga urinishidir."
+  },
+  {
+    "level": 2,
+    "id": 361755,
+    "q_ru": "Какая беспроводная технология используется для передачи данных на короткие расстояния (обычно до 10 метров) между смартфонами, наушниками и ноутбуками?",
+    "q_en": "Which wireless technology is used for short-range data transmission between devices like smartphones, headphones, and laptops?",
+    "q_uz": "Smartfon, quloqchin va noutbuklar o'rtasida qisqa masofada (odatda 10 metrgacha) ma'lumot almashish uchun qaysi simsiz texnologiya ishlatiladi?",
+    "options_ru": [
+      "Bluetooth",
+      "Wi-Fi",
+      "4G LTE",
+      "GPS"
+    ],
+    "options_en": [
+      "Bluetooth",
+      "Wi-Fi",
+      "4G LTE",
+      "GPS"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Bluetooth qisqa masofadagi qurilmalarni simsiz ulash uchun xizmat qiladi. Wi-Fi lokal tarmoq va internet uchun, 4G mobil aloqa uchun, GPS esa navigatsiya uchun."
+  },
+  {
+    "level": 2,
+    "id": 361756,
+    "q_ru": "Какая комбинация клавиш используется для копирования выделенного текста в буфер обмена?",
+    "q_en": "Which key combination is used to copy selected text to the clipboard?",
+    "q_uz": "Ajratilgan matndan nusxa olish (copy) uchun qaysi klaviatura kombinatsiyasi ishlatiladi?",
+    "options_ru": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + X",
+      "Ctrl + Z"
+    ],
+    "options_en": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + X",
+      "Ctrl + Z"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Ctrl+C — nusxalash (Copy), Ctrl+V — joylashtirish (Paste), Ctrl+X — qirqib olish (Cut), Ctrl+Z — harakatni ortga qaytarish (Undo)."
+  },
+  {
+    "level": 2,
+    "id": 361757,
+    "q_ru": "Что из перечисленного является надежным паролем?",
+    "q_en": "Which of the following is a strong password?",
+    "q_uz": "Quyidagilardan qaysi biri kuchli (xavfsiz) parol hisoblanadi?",
+    "options_ru": [
+      "P@ssw0rd2026!",
+      "12345678",
+      "password",
+      "qwerty"
+    ],
+    "options_en": [
+      "P@ssw0rd2026!",
+      "12345678",
+      "password",
+      "qwerty"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Kuchli parol tarkibida katta va kichik harflar, raqamlar hamda maxsus belgilar (@, !, $) bo'lishi, shuningdek oddiy so'z bo'lmasligi kerak."
+  },
+  {
+    "level": 2,
+    "id": 361758,
+    "q_ru": "Какая программа предназначена для просмотра веб-страниц в Интернете?",
+    "q_en": "Which program is designed to view web pages on the Internet?",
+    "q_uz": "Internetdagi veb-sahifalarni ko'rish uchun qaysi dastur mo'ljallangan?",
+    "options_ru": [
+      "Веб-браузер",
+      "Текстовый процессор",
+      "Антивирус",
+      "Графический редактор"
+    ],
+    "options_en": [
+      "Web browser",
+      "Word processor",
+      "Antivirus",
+      "Graphic editor"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Veb-brauzerlar (Chrome, Safari, Edge) internet saytlarini ochish va ko'rish uchun xizmat qiladi."
+  },
+  {
+    "level": 2,
+    "id": 361759,
+    "q_ru": "Где временно хранятся данные, с которыми компьютер работает прямо в данный момент?",
+    "q_en": "Where is data temporarily stored that the computer is actively working with right now?",
+    "q_uz": "Kompyuter ayni vaqtda faol ishlatayotgan ma'lumotlar vaqtincha qayerda saqlanadi?",
+    "options_ru": [
+      "Оперативная память (RAM)",
+      "Жесткий диск (HDD)",
+      "Процессор (CPU)",
+      "Флеш-накопитель USB"
+    ],
+    "options_en": [
+      "Random Access Memory (RAM)",
+      "Hard Disk Drive (HDD)",
+      "Central Processing Unit (CPU)",
+      "USB Flash Drive"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Operativ xotira (RAM) joriy vaqtda bajarilayotgan dasturlar va jarayonlar ma'lumotlarini vaqtincha saqlash uchun xizmat qiladi. Kompyuter o'chsa, RAM ichidagi ma'lumot o'chadi."
+  },
+  {
+    "level": 2,
+    "id": 361760,
+    "q_ru": "Какое устройство отвечает за обработку инструкций и управление работой всех компонентов компьютера?",
+    "q_en": "Which device is responsible for processing instructions and controlling the operation of all computer components?",
+    "q_uz": "Kompyuterda buyruqlarni qayta ishlash va barcha qismlarni boshqarish uchun qaysi qurilma javobgar?",
+    "options_ru": [
+      "Центральный процессор (CPU)",
+      "Видеокарта (GPU)",
+      "Материнская плата",
+      "Блок питания"
+    ],
+    "options_en": [
+      "Central Processing Unit (CPU)",
+      "Graphics Processing Unit (GPU)",
+      "Motherboard",
+      "Power Supply Unit"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• CPU (Markaziy protsessor) — kompyuterning 'miyasi' bo'lib, barcha hisoblashlar va boshqaruv amallarini bajaradi."
+  },
+  {
+    "level": 2,
+    "id": 361761,
+    "q_ru": "Что означает аббревиатура URL?",
+    "q_en": "What does URL stand for?",
+    "q_uz": "URL abbreviaturasi nimani anglatadi?",
+    "options_ru": [
+      "Uniform Resource Locator (Единый указатель ресурсов)",
+      "Universal Recovery Link",
+      "User Network Connection",
+      "Unified Reading Location"
+    ],
+    "options_en": [
+      "Uniform Resource Locator",
+      "Universal Recovery Link",
+      "User Network Connection",
+      "Unified Reading Location"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• URL (Uniform Resource Locator) — bu internetdagi muayyan veb-sahifa yoki faylning aniq manzili (silkasi)."
+  },
+  {
+    "level": 2,
+    "id": 361762,
+    "q_ru": "Какая функция в почтовых клиентах позволяет автоматически отправлять один и тот же ответ на все входящие письма, когда вы находитесь в отпуске?",
+    "q_en": "Which feature in email clients allows you to automatically send the same reply to all incoming emails when you are on vacation?",
+    "q_uz": "Pochta xizmatlarida ta'tilda bo'lganingizda kelgan barcha xatlarga avtomatik ravishday javob qaytarish funksiyasi nima deb ataladi?",
+    "options_ru": [
+      "Автоответчик (Автоматический ответ)",
+      "Пересылка писем (Forward)",
+      "Фильтрация спама",
+      "Архивация писем"
+    ],
+    "options_en": [
+      "Vacation responder / Auto-reply",
+      "Email forwarding",
+      "Spam filtering",
+      "Email archiving"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Avtojavob beruvchi (Vacation responder / Auto-reply) foydalanuvchi ishda yoki tarmoqda bo'lmagan paytda kelgan xatlarga avtomatik standart xat yuboradi."
+  },
+  {
+    "level": 2,
+    "id": 361763,
+    "q_ru": "Какая сеть охватывает большую географическую зону, например, целую страну или весь мир?",
+    "q_en": "Which network covers a large geographical area, such as an entire country or the entire world?",
+    "q_uz": "Butun mamlakat yoki dunyoni qamrab oluvchi yirik geografik tarmoq turi qaysi?",
+    "options_ru": [
+      "WAN (Глобальная вычислительная сеть)",
+      "LAN (Локальная вычислительная сеть)",
+      "PAN (Персональная сеть)",
+      "WLAN (Беспроводная локальная сеть)"
+    ],
+    "options_en": [
+      "WAN (Wide Area Network)",
+      "LAN (Local Area Network)",
+      "PAN (Personal Area Network)",
+      "WLAN (Wireless Local Area Network)"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• WAN (Wide Area Network) — butun dunyo yoki yirik hududlarni birlashtiradi (Internet bunga misol). LAN esa bitta xona yoki bino ichidagi kichik tarmoqdir."
+  },
+  {
+    "level": 2,
+    "id": 361764,
+    "q_ru": "Что такое вредоносное ПО (Malware)?",
+    "q_en": "What is malware?",
+    "q_uz": "Zararli dasturiy ta'minot (Malware) nima?",
+    "options_ru": [
+      "Программное обеспечение, разработанное специально для нанесения вреда компьютеру или кражи данных.",
+      "Устаревшее программное обеспечение, которое больше не работает.",
+      "Бесплатные программы с открытым исходным кодом.",
+      "Программы для ускорения работы операционной системы."
+    ],
+    "options_en": [
+      "Software designed specifically to harm a computer or steal data.",
+      "Outdated software that no longer works.",
+      "Free open-source programs.",
+      "Programs to speed up the operating system."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Malware (zararli dastur) — kompyuter tizimiga zarar yetkazish, ma'lumotlarni o'g'irlash yoki foydalanuvchini kuzatish uchun maxsus yaratilgan virus, troyan va josus dasturlardir."
+  },
+  {
+    "level": 2,
+    "id": 361765,
+    "q_ru": "Какое главное преимущество использования двухфакторной аутентификации (2FA)?",
+    "q_en": "What is the main benefit of using two-factor authentication (2FA)?",
+    "q_uz": "Ikki bosqichli autentifikatsiyadan (2FA) foydalanishning asosiy afzalligi nimada?",
+    "options_ru": [
+      "Она обеспечивает дополнительный уровень безопасности, требуя не только пароль, но и код подтверждения.",
+      "Она позволяет быстрее входить в аккаунты без ввода пароля.",
+      "Она автоматически очищает историю браузера.",
+      "Она увеличивает скорость интернет-соединения."
+    ],
+    "options_en": [
+      "It provides an extra layer of security by requiring not just a password, but also a confirmation code.",
+      "It allows faster login to accounts without entering a password.",
+      "It automatically clears the browser history.",
+      "It increases the Internet connection speed."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• 2FA paroldan tashqari telefonga keladigan SMS kod yoki maxsus ilova kodini ham so'rash orqali hisob qaydnomasi xavfsizligini keskin oshiradi."
+  },
+  {
+    "level": 2,
+    "id": 361766,
+    "q_ru": "Какая технология позволяет совершать голосовые звонки через Интернет вместо традиционных телефонных линий?",
+    "q_en": "Which technology allows making voice calls over the Internet instead of traditional phone lines?",
+    "q_uz": "An'anaviy telefon liniyalari o'rniga internet orqali ovozli qo'ng'iroqlarni amalga oshirish imkonini beruvchi texnologiya qaysi?",
+    "options_ru": [
+      "VoIP",
+      "FTP",
+      "HTTP",
+      "SMTP"
+    ],
+    "options_en": [
+      "VoIP",
+      "FTP",
+      "HTTP",
+      "SMTP"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• VoIP (Voice over IP) — internet protokoli orqali ovoz uzatish texnologiyasi bo'lib, Telegram, WhatsApp yoki Skype qo'ng'iroqlari negizida turadi."
+  },
+  {
+    "level": 2,
+    "id": 361767,
+    "q_ru": "Что делает функция CC (Carbon Copy) при отправке электронного письма?",
+    "q_en": "What does the CC (Carbon Copy) feature do when sending an email?",
+    "q_uz": "Elektron xat yuborishda CC (Carbon Copy / Копия) maydoni qanday vazifani bajaradi?",
+    "options_ru": [
+      "Отправляет копию письма другим получателям, и все участники видят их адреса.",
+      "Скрывает адрес получателя от остальных участников переписки.",
+      "Автоматически шифрует содержимое письма.",
+      "Отправляет письмо обратно отправителю."
+    ],
+    "options_en": [
+      "Sends a copy of the email to other recipients, and all participants can see their addresses.",
+      "Hides the recipient's address from the rest of the conversation.",
+      "Automatically encrypts the email content.",
+      "Sends the email back to the sender."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• CC maydoniga yozilgan shaxslar xat nusxasini olishadi va buni xat daxldor bo'lgan barcha qabul qiluvchilar ochiq ko'ra olishadi."
+  },
+  {
+    "level": 2,
+    "id": 361768,
+    "q_ru": "Какая служба преобразует понятные человеку доменные имена (например, google.com) в IP-адреса, используемые компьютерами?",
+    "q_en": "Which service converts human-readable domain names (e.g., google.com) into IP addresses used by computers?",
+    "q_uz": "Inson tushunadigan domen nomlarini (masalan, google.com) kompyuterlar tushunadigan IP-manzillarga aylantirib beruvchi xizmat qaysi?",
+    "options_ru": [
+      "DNS",
+      "DHCP",
+      "FTP",
+      "VPN"
+    ],
+    "options_en": [
+      "DNS",
+      "DHCP",
+      "FTP",
+      "VPN"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• DNS (Domain Name System) — internetning 'manzillar kitobi' bo'lib, har bir sayt nomini uning IP-manziliga bog'lab beradi."
+  },
+  {
+    "level": 2,
+    "id": 361769,
+    "q_ru": "Какое из следующих устройств обеспечивает беспроводное подключение локальных устройств к Интернету?",
+    "q_en": "Which of the following devices provides wireless connection for local devices to the Internet?",
+    "q_uz": "Quyidagi qurilmalardan qaysi biri lokal qurilmalarni simsiz tarzda internetga ulashni ta'minlaydi?",
+    "options_ru": [
+      "Маршрутизатор (Роутер)",
+      "Жесткий диск",
+      "Процессор",
+      "Сканер"
+    ],
+    "options_en": [
+      "Router",
+      "Hard drive",
+      "Processor",
+      "Scanner"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Router (Marshrutizator) uydagi yoki ofisdagi qurilmalarni (Wi-Fi orqali) umumiy tarmoqqa va internetga bog'laydi."
+  },
+  {
+    "level": 2,
+    "id": 361770,
+    "q_ru": "Что означает понятие 'Цифровой след' (Digital Footprint)?",
+    "q_en": "What does 'Digital Footprint' mean?",
+    "q_uz": "'Raqamli iz' (Digital Footprint) iborasi nimani anglatadi?",
+    "options_ru": [
+      "Вся информация и данные, которые человек оставляет после себя в Интернете в результате своих действий.",
+      "След от пальца на сенсорном экране смартфона.",
+      "Количество скачанных файлов за один месяц.",
+      "Специальный код для шифрования жесткого диска."
+    ],
+    "options_en": [
+      "All the information and data a person leaves behind on the Internet as a result of their online activities.",
+      "A fingerprint on a smartphone touchscreen.",
+      "The number of downloaded files in one month.",
+      "A special code for hard drive encryption."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Raqamli iz — inson internetda qoldiradigan barcha ma'lumotlar: sharhlar, layklar, qidiruvlar tarixi va saytlardagi faollik yig'indisidir."
+  },
+  {
+    "level": 2,
+    "id": 361771,
+    "q_ru": "Какое главное отличие лицензии Open Source (с открытым исходным кодом) от коммерческого ПО?",
+    "q_en": "What is the main difference between an Open Source license and commercial software?",
+    "q_uz": "Ochiq kodli dasturlar (Open Source) bilan tijoriy (commercial) dasturlar o'rtasidagi asosiy farq nima?",
+    "options_ru": [
+      "Исходный код Open Source открыт для просмотра, изменения и распространения любым пользователем.",
+      "Open Source программы работают только без подключения к Интернету.",
+      "Коммерческое ПО никогда не содержит ошибок и вирусов.",
+      "Open Source программы можно запускать только на смартфонах."
+    ],
+    "options_en": [
+      "The source code of Open Source is open for viewing, modification, and distribution by any user.",
+      "Open Source programs only work without an Internet connection.",
+      "Commercial software never contains bugs or viruses.",
+      "Open Source programs can only be run on smartphones."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Open Source litsenziyasidagi dasturlarning kodlari ochiq bo'ladi, uni har kim o'rganishi, o'zgartirishi va erkin tarqatishi mumkin."
+  },
+  {
+    "level": 2,
+    "id": 361782,
+    "q_ru": "Вы и ваш партнер собрали информацию и разложили ее по планетам, но содержимое документа не отформатировано. Теперь документ необходимо структурировать. Какие две функции Microsoft Word необходимо использовать, чтобы структурировать документ? (Выберите 2)",
+    "q_en": "You and your partner have gathered information and organized it by planet, but the content of the document is unformatted. Now the document needs to be structured. Which two Microsoft Word features do you need to use to structure the document? (Choose 2)",
+    "q_uz": "Hujjat matnini to'g'ri tizimlashtirish (struktura hosil qilish) uchun Microsoft Word'ning qaysi ikkita funksiyasidan foydalanish zarur? (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Настройка страницы",
+      "Галерея стилей",
+      "Вкладка \"Ссылки\"",
+      "Панель навигации"
+    ],
+    "options_en": [
+      "Page Setup",
+      "Styles Gallery",
+      "References Tab",
+      "Navigation Pane"
+    ],
+    "answer_idx": [1, 3],
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Hujjat matnini tizimlashtirish uchun avval 'Galereya stilev' (Styles Gallery) orqali sarlavhalarga stillar beriladi. So'ngra hosil bo'lgan ierarxiya bo'yicha qulay harakatlanish uchun 'Panel navigatsii' (Navigation Pane) oynasi ochiladi."
+  },
+  {
+    "level": 2,
+    "id": 361783,
+    "q_ru": "Вы готовите слайд-презентацию для урока истории США. Вам поручено рассказать одноклассникам об исторической личности. Каков рекомендуемый порядок действий для создания слайд-презентации? Чтобы ответить, перетащите каждое действие из колонки слева в правильный порядок шагов справа.",
+    "q_en": "You are preparing a slide presentation for a US history class. What is the recommended sequence of steps to create a slide presentation?",
+    "q_uz": "Slayd-taqdimot yaratishning tavsiya etilgan to'g'ri ketma-ketligi qanday? (GMetrix rasmiy tartibi bo'yicha)",
+    "options_ru": [
+      "Шаг 1: Создайте структурированный конспект",
+      "Шаг 2: Импортируйте конспект в презентацию",
+      "Шаг 3: Выберите дизайн",
+      "Шаг 4: Создайте титульную страницу",
+      "Шаг 5: Примените макеты слайдов к содержимому",
+      "Шаг 6: Добавьте графики, диаграммы и анимацию",
+      "Шаг 7: Применить переходы"
+    ],
+    "options_en": [
+      "Step 1: Create a structured outline",
+      "Step 2: Import the outline into the presentation",
+      "Step 3: Choose a design",
+      "Step 4: Create a title page",
+      "Step 5: Apply slide layouts to content",
+      "Step 6: Add graphics, charts, and animation",
+      "Step 7: Apply transitions"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• DIQQAT! GMetrix tizimi bo'yicha ketma-ketlik: 1. Reja (Outline) tuzish -> 2. Import qilish -> 3. Dizayn tanlash -> 4. Titul sahifasini yaratish -> 5. Maketlarni to'g'rilash -> 6. Multimedia qo'shish -> 7. O'tish effektlarini berish."
+  },
+  {
+    "level": 2,
+    "id": 361784,
+    "q_ru": "Вы готовите рабочую книгу для ведения статистики игроков вашей команды по софтболу. Для каждой игры вы хотите записывать количество ударов, пробежек и ошибок для каждого игрока. Какой рекомендуемый порядок действий вы должны предпринять для подготовки этой рабочей книги? Чтобы ответить, перетащите каждое действие из столбца слева в правильный порядок действий справа.",
+    "q_en": "You are preparing a workbook to keep track of player statistics for your softball team. For each game, you want to record the number of hits, runs, and errors for each player. What is the recommended sequence of steps you should take to prepare this workbook?",
+    "q_uz": "Softbol jamoangiz o'yinchilari statistikasini yuritish uchun Excel ishchi kitobini tayyorlashning tavsiya etilgan to'g'ri ketma-ketligi qanday?",
+    "options_ru": [
+      "Шаг 1: Создайте рабочий лист",
+      "Шаг 2: Создайте заголовки колонок \"Игрок\", \"Удары\", \"Пробежки\" и \"Ошибки\"",
+      "Шаг 3: Заполните колонку \"Игрок\" именами",
+      "Шаг 4: Скопируйте рабочий лист для каждой игры"
+    ],
+    "options_en": [
+      "Step 1: Create a worksheet",
+      "Step 2: Create column headings \"Player\", \"Hits\", \"Runs\", and \"Errors\"",
+      "Step 3: Fill the \"Player\" column with names",
+      "Step 4: Copy the worksheet for each game"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Excelda qayta-qayta to'ldiriladigan jadvallar bilan ishlashda eng to'g'ri yo'l — avval bitta mukammal shablon varag'ini yaratib, sarlavha va ismlarni yozish, so'ngra bu tayyor shablonni har bir yangi o'yin uchun nusxalashdir."
+  },
+  {
+    "level": 2,
+    "id": 361785,
+    "q_ru": "Друг попросил вас вырезать его изображение на боковой стороне фотографии, прежде чем вы опубликуете снимок в социальных сетях. Вы запускаете программу для редактирования фотографий и загружаете снимок. Какая функция редактирования фотографий позволит вырезать ненужные части изображения?",
+    "q_en": "A friend asked you to crop his image on the side of a photo before you post the picture to social media. You start a photo editing program and upload the picture. Which photo editing feature will allow you to cut out unwanted parts of the image?",
+    "q_uz": "Fotosuratlarni tahrirlash dasturida qaysi funksiya tasvirning keraksiz chetki qismlarini qirqib olib tashlashga (crop) imkon beradi?",
+    "options_ru": [
+      "Растениеводство",
+      "Стереть",
+      "Отделка",
+      "Разрез"
+    ],
+    "options_en": [
+      "Crop",
+      "Erase",
+      "Trim",
+      "Cut"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Interfeysda inglizcha 'Crop' (Rasmni qirqish) so'zi xato tarjima qilinib, 'Растениеводство' (dehqonchilik) deb o'girilgan. Tasvirning keraksiz qismlarini kesish uchun aynan shu bosiladi."
+  },
+  {
+    "level": 2,
+    "id": 361786,
+    "q_ru": "Соотнесите каждый навык клавиатуры с его результатом. Чтобы ответить, перетащите каждый навык клавиатуры из колонки слева на его результат справа.",
+    "q_en": "Match each keyboard skill with its result.",
+    "q_uz": "Har bir klaviatura tugmasi yoki birikmasini uning bajaradigan vazifasiga moslashtiring.",
+    "options_ru": [
+      "Захват изображения экрана ➔ PrtScn",
+      "Вставляет символ @ ➔ Shift+2",
+      "Создает отступ ➔ Tab",
+      "Делает каждую букву прописной ➔ Caps Lock"
+    ],
+    "options_en": [
+      "Screen capture ➔ PrtScn",
+      "Inserts @ character ➔ Shift+2",
+      "Creates an indent ➔ Tab",
+      "Makes each letter uppercase ➔ Caps Lock"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• PrtScn — ekranni rasmga oladi (skrinshot). Shift+2 — kuchukcha (@) belgisini qo'yadi. Tab — abzats o'rnini suradi. Caps Lock — harflarni bosh harf rejimiga o'tkazadi."
+  },
+  {
+    "level": 2,
+    "id": 361794,
+    "q_ru": "Какие два утверждения различают файлы только для чтения и для чтения и записи? (Выберите два)",
+    "q_en": "Which two statements distinguish between read-only and read-write files? (Choose two)",
+    "q_uz": "Faqat o'qish uchun (Read-only) va o'qish-yozish uchun (Read-write) mo'ljallangan fayllarni ajratib turuvchi ikkita to'g'ri tasdiqni ko'rsating. (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Файл, установленный в режим чтения-записи, может быть изменен другими пользователями.",
+      "Файл, для которого установлено значение \"Только для чтения\", можно просматривать, но не изменять.",
+      "Файл, для которого установлено значение \"Только для чтения\", защищен от копирования.",
+      "По умолчанию для файлов установлено значение \"Только для чтения\"."
+    ],
+    "options_en": [
+      "A file set to read-write mode can be modified by other users.",
+      "A file set to \"Read-only\" can be viewed but not modified.",
+      "A file set to \"Read-only\" is protected from being copied.",
+      "By default, files are set to \"Read-only\"."
+    ],
+    "answer_idx": [0, 1],
+    "explanation": "💡 Izoh:\n• Read-write rejimidagi fayllarni boshqalar ham tahrirlay oladi. Read-only fayllarni esa faqat ko'rish mumkin, ularga o'zgartirish kiritib bo'lmaydi."
+  },
+  {
+    "level": 2,
+    "id": 361795,
+    "q_ru": "Вы хотите установить защиту паролем на file Microsoft Office. Какой порядок действий необходимо выполнить, чтобы защитить паролем файл Word, Excel или PowerPoint? Для ответа перетащите каждое действие из столбца слева в правильный порядок действий справа.",
+    "q_en": "You want to password protect a Microsoft Office file. What is the correct sequence of steps to password protect a Word, Excel, or PowerPoint file?",
+    "q_uz": "Microsoft Office fayliga parol o'rnatish uchun bajarilishi kerak bo'lgan to'g'ri ketma-ketlikni ko'rsating.",
+    "options_ru": [
+      "Шаг 1: Перейдите на вкладку \"Файл\"",
+      "Шаг 2: Откройте панель \"Информация\"",
+      "Шаг 3: Нажмите кнопку Защитить",
+      "Шаг 4: Выберите Шифровать с помощью пароля",
+      "Шаг 5: Введите пароль дважды",
+      "Шаг 6: Нажмите OK"
+    ],
+    "options_en": [
+      "Step 1: Go to the \"File\" tab",
+      "Step 2: Open the \"Info\" pane",
+      "Step 3: Click the Protect button",
+      "Step 4: Select Encrypt with Password",
+      "Step 5: Enter the password twice",
+      "Step 6: Click OK"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Office dasturlarida standart parol qo'yish yo'li: Файл (File) -> Информация (Info) -> Защитить документ (Protect) -> Шифровать с помощью пароля -> Parolni ikki marta kiritish -> OK."
+  },
+  {
+    "level": 2,
+    "id": 361796,
+    "q_ru": "В Windows как восстановить предыдущую версию файла?",
+    "q_en": "In Windows, how do you restore a previous version of a file?",
+    "q_uz": "Windows operatsion tizimida faylning oldingi versiyasini qanday tiklash mumkin?",
+    "options_ru": [
+      "В Проводнике файлов щелкните файл правой кнопкой мыши и выберите Восстановить предыдущие версии.",
+      "Восстановить предыдущую версию файла невозможно.",
+      "В \"Настройках\" выберите \"Обновление и безопасность\" и выберите \"Восстановление\".",
+      "В Проводнике файлов щелкните файл правой кнопкой мыши и выберите Преобразовать."
+    ],
+    "options_en": [
+      "In File Explorer, right-click the file and select Restore previous versions.",
+      "It is impossible to restore a previous version of a file.",
+      "In Settings, select Update & Security and select Recovery.",
+      "In File Explorer, right-click the file and select Convert."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Windows tizimida faylni oldingi saqlangan holatiga qaytarish uchun File Explorer (Provodnik) ichida fayl ustiga sichqonchaning o'ng tugmasini bosib, 'Восстановить предыдущие версии' tanlanadi."
+  },
+  {
+    "level": 2,
+    "id": 361797,
+    "q_ru": "Вы изучаете права и обязанности, связанные с совместным использованием интеллектуальной собственности... Соотнесите каждый тип интеллектуальной собственности с описанием нарушения.",
+    "q_en": "Match each type of intellectual property with the description of the violation.",
+    "q_uz": "Intellektual mulk turlarini ularning qonunbuzarlik ta'riflariga moslashtiring.",
+    "options_ru": [
+      "Использование логотипа или названия, схожего с тем, которое использует другая сторона ➔ Нарушение товарного знака",
+      "Распространение коммерческой тайны без письменного разрешения ➔ Неправомерное присвоение",
+      "Произведение, распространение, демонстрация или исполнение произведения... без разрешения владельца авторских прав ➔ Пиратство",
+      "Использование или продажа изобретения без разрешения владельца права интеллектуальной собственности ➔ Нарушение патента"
+    ],
+    "options_en": [
+      "Using a logo or name similar to one used by another party ➔ Trademark infringement",
+      "Distributing a trade secret without written permission ➔ Misappropriation",
+      "Producing, distributing, displaying, or performing a work... without the permission of the copyright holder ➔ Piracy",
+      "Using or selling an invention without the permission of the intellectual property right holder ➔ Patent infringement"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Nom/Logotip = Товарный знак. Biznes siri (Trade secret) = Неправомерное присвоение. Mualliflik asari = Пиратство. Ixtiro = Нарушение патента."
+  },
+  {
+    "level": 2,
+    "id": 361802,
+    "q_ru": "Как в видеомонтаже называется удаление начала или конца видео?",
+    "q_en": "In video editing, what is the removal of the beginning or end of a video called?",
+    "q_uz": "Video montajida videoning boshi yoki oxirgi qismini qirqib tashlash nima deb ataladi?",
+    "options_ru": [
+      "Клипса",
+      "Разрез",
+      "Отделка",
+      "Растениеводство"
+    ],
+    "options_en": [
+      "Clip",
+      "Cut",
+      "Trim",
+      "Crop"
+    ],
+    "answer_idx": 2,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Inglizcha 'Trim' (videoning chetlarini qirqish) terminini GMetrix rus tiliga xato ravishda 'Отделка' deb tarjima qilgan."
+  },
+  {
+    "level": 2,
+    "id": 361803,
+    "q_ru": "Предлагая сценарий, выберите подходящий метод общения. Для ответа переместите каждый сценарий слева на наиболее подходящую форму общения справа.",
+    "q_en": "Given a scenario, choose the appropriate communication method.",
+    "q_uz": "Berilgan vaziyatlarga eng mos keluvchi aloqa usulini ko'rsating.",
+    "options_ru": [
+      "Запись в блоге ➔ Поделитесь своими ежедневными мыслями o текущих событиях в онлайн-дневнике.",
+      "Сообщение электронной почты ➔ Запросите у компании возврат денег.",
+      "Сообщение форума ➔ Задать вопрос в группе обсуждения игры.",
+      "Текстовое сообщение ➔ Быстро сообщите старшему брату, где за вами заехать."
+    ],
+    "options_en": [
+      "Blog post ➔ Share your daily thoughts on current events in an online journal.",
+      "Email message ➔ Request a refund from a company.",
+      "Forum message ➔ Ask a question in a game discussion group.",
+      "Text message ➔ Quickly let your older brother know where to pick you up."
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Onlayn kundalik = Блог. Pulni qaytarish (Refund) = Email. Guruhda savol-javob = Форум. Akasiga tezkor xabar = Текстовое сообщение."
+  },
+  {
+    "level": 2,
+    "id": 361804,
+    "q_ru": "Определите поля электронного сообщения. Для ответа переместите каждое поле слева к его функции справа.",
+    "q_en": "Identify the fields of an email message.",
+    "q_uz": "Elektron xat maydonlarini ularning vazifalariga moslashtiring.",
+    "options_ru": [
+      "Отмечает уровень важности ➔ Низкий - Нормальный - Высокий",
+      "Отправляет копию скрытому получателю ➔ Bcc",
+      "Список других известных получателей ➔ Cc",
+      "Тема письма ➔ Тема",
+      "Сообщение письма ➔ Тело"
+    ],
+    "options_en": [
+      "Indicates the importance level ➔ Low - Normal - High",
+      "Sends a copy to a hidden recipient ➔ Bcc",
+      "List of other known recipients ➔ Cc",
+      "Subject of the email ➔ Subject",
+      "Message of the email ➔ Body"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Muhimlik = Низкий/Высокий. Bcc = Yashirin nusxa. Cc = Ochiq nusxa. Sarlavha = Тема. Matn qismi = Тело."
+  },
+  {
+    "level": 2,
+    "id": 361809,
+    "q_ru": "Как работают цифровые платежи?",
+    "q_en": "How do digital payments work?",
+    "q_uz": "Raqamli to'lovlar (digital payments) qanday ishlaydi?",
+    "options_ru": [
+      "Цифровые платежи похожи на электронные чеки.",
+      "Цифровые платежи - это как операционная система.",
+      "Цифровые платежи требуют соподписания.",
+      "Цифровые платежи требуют привязки к банковскому счету или кредитной карте."
+    ],
+    "options_en": [
+      "Digital payments are like electronic checks.",
+      "Digital payments are like an operating system.",
+      "Digital payments require co-signing.",
+      "Digital payments require linking to a bank account or credit card."
+    ],
+    "answer_idx": 3,
+    "explanation": "💡 Izoh:\n• Raqamli to'lov tizimlari ishlashi uchun ular albatta haqiqiy bank hisobiga yoki kredit/debet kartasiga bog'langan bo'lishi shart."
+  },
+  {
+    "level": 2,
+    "id": 361810,
+    "q_ru": "Что является основной проблемой безопасности при покупке приложений?",
+    "q_en": "What is a major security concern when purchasing apps?",
+    "q_uz": "Ilovalarni sotib olishda (yuklab olishda) eng asosiy xavfsizlik va moliyaviy muammo nima?",
+    "options_ru": [
+      "Разработчики приложений крадут информацию о кредитных картах.",
+      "Дети имеют доступ к смартфонам.",
+      "Товары не будут отправлены по правильному адресу.",
+      "Нет никаких проблем с безопасностью."
+    ],
+    "options_en": [
+      "App developers steal credit card information.",
+      "Children have access to smartphones.",
+      "Items will not be shipped to the correct address.",
+      "There are no security issues."
+    ],
+    "answer_idx": 1,
+    "explanation": "💡 DIQQAT! (GMetrix Logikasi):\n• GMetrix talqiniga ko'ra, ilova ichidagi xaridlar tizimida eng katta xavf — 'Bolalarning smartfonlardan nazoratsiz foydalanishi' hisoblanadi, chunki ular ota-ona ruxsatisiz pullarni sarflab yuborishi mumkin."
+  },
+  {
+    "level": 2,
+    "id": 361811,
+    "q_ru": "Соотнесите сервис потокового мультимедиа с его примером. Для ответа переместите каждый сервис из списка слева в соответствующий пример справа.",
+    "q_en": "Match the streaming media service with its example.",
+    "q_uz": "Striming xizmatlari va uskunalarini ularning to'g'ri misollariga moslashtiring.",
+    "options_ru": [
+      "Потоковое кино ➔ Netflix, Disney+, Hulu, Amazon Prime",
+      "Медиаплееры ➔ Spotify, Kodi, веб-браузеры",
+      "Потоковые устройства ➔ Roku, Amazon Firestick, Apple TV, Chromecast"
+    ],
+    "options_en": [
+      "Streaming Movie ➔ Netflix, Disney+, Hulu, Amazon Prime",
+      "Media Players ➔ Spotify, Kodi, web browsers",
+      "Streaming Devices ➔ Roku, Amazon Firestick, Apple TV, Chromecast"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Video platformalar = Потоковое кино. Ijro etuvchi dasturlar = Медиаплееры. TV-uskunalar = Потоковые устройства."
+  },
+  {
+    "level": 2,
+    "id": 361812,
+    "q_ru": "Вы работаете над проектом вместе с шестью другими людьми. Каждый из них работает в офисе, расположенном в разных странах... Какие два инструмента для совместной работы будут наиболее эффективны для передачи информации этим коллегам и обратно? (Выберите два)",
+    "q_en": "You are working on a project with six other people. Each of them works in an office located in different countries... Which two collaboration tools will be most effective? (Choose two)",
+    "q_uz": "Turli vaqt zonalaridagi hamkasblar bilan ma'lumot almashish uchun qaysi ikkita vosita eng samarali? (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Видеоконференция",
+      "Телефонный звонок",
+      "Текстовые сообщения",
+      "Электронная почта"
+    ],
+    "options_en": [
+      "Video conference",
+      "Telephone call",
+      "Text messaging",
+      "Email"
+    ],
+    "answer_idx": [2, 3],
+    "explanation": "💡 DIQQAT! (GMetrix Logikasi):\n• Katta vaqt farqlari tufayli real vaqtdagi muloqot noqulay. GMetrix tushuntirishicha, xodimlar o'z vaqtida javob yozishlari uchun eng mos asinxron vositalar — bu 'Электронная почта' (Email) va 'Текстовые сообщения' (Messenjerlar) hisoblanadi."
+  },
+  {
+    "level": 2,
+    "id": 361813,
+    "q_ru": "Комитету по проведение собеседований необходимо отобрать кандидатов на должность директора в своей компании. Члены комитета находятся в одном офисе. Кандидаты на должность расположены в разных штатах. Какие два инструмента совместной работы будут наиболее эффективны для проведения этих собеседований? (Выберите два)",
+    "q_en": "An interview committee needs to screen candidates for a director position at their company... Which two collaboration tools will be most effective for conducting these interviews? (Choose two)",
+    "q_uz": "Boshqa shtatlardagi nomzodlar bilan direktorlik lavozimiga masofaviy suhbat o'tkazish uchun qaysi vositalar eng samarali? (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Электронная почта",
+      "Телефонный звонок",
+      "Видеоконференция",
+      "Текстовое сообщение"
+    ],
+    "options_en": [
+      "Email",
+      "Telephone call",
+      "Video conference",
+      "Text messaging"
+    ],
+    "answer_idx": [1, 2],
+    "explanation": "💡 Izoh:\n• Nomzod bilan jonli intervyu o'tkazish va uni baholash uchun faqat real vaqtdagi sinxron aloqa — 'Телефонный звонок' hamda 'Видеоконференция' tanlanadi."
+  },
+  {
+    "level": 2,
+    "id": 361814,
+    "q_ru": "Существует множество преимуществ совместной работы в команде. Для каждого утверждения о совместной работе выберите \"Да\", если это преимущество есть, или \"Нет\", если его нет.",
+    "q_en": "There are many benefits to collaborating as a team. For each statement about collaboration, select Yes if it is a benefit or No if it is not.",
+    "q_uz": "Jamoaviy hamkorlikning afzalliklari haqidagi mulohazalarga Ha (Да) yoki Yo'q (Нет) deb javob bering.",
+    "options_ru": [
+      "Повышение креативности и нестандартного мышления ➔ Да",
+      "Снижение производительности труда ➔ Нет",
+      "Расширение возможностей обучения ➔ Да",
+      "Более широкий географический вклад ➔ Да"
+    ],
+    "options_en": [
+      "Increased creativity and out-of-the-box thinking ➔ Yes",
+      "Decreased work productivity ➔ No",
+      "Enhanced learning opportunities ➔ Yes",
+      "Broader geographical contribution ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Kreativlik, o'rganish va geografik kenglik — jamoaning afzalliklaridir. Ish unumdorligining pasayishi (Снижение производительности) esa salbiy holat, shuning uchun 'Нет'."
+  },
+  {
+    "level": 2,
+    "id": 361819,
+    "q_ru": "Помимо работы в школе... вы ежедневно проводите 4-6 часов за ноутбуком... Для каждого утверждения о риске для здоровья при использовании цифровых технологий выберите Да, если это утверждение верно, или Нет, если оно неверно.",
+    "q_en": "In addition to schoolwork... For each statement about health risks when using digital technology, select Yes if it is true or No if it is false.",
+    "q_uz": "Raqamli texnologiyalardan foydalanishda sog'liq uchun xavflar haqidagi mulohazalarga Ha (Да) yoki Yo'q (Нет) javobini tanlang.",
+    "options_ru": [
+      "Чтобы избежать напряжения глаз, нужно часто моргать и делать перерывы \"20-20-20\". ➔ Да",
+      "Чтобы избежать нарушения сна, перед сном заряжайте телефон в месте, которое вы не можете достать, но при этом можете слышать. ➔ Да",
+      "Чтобы избежать зависимости от социальных сетей, распределяйте свое время как минимум между 3-5 сайтами. ➔ Нет",
+      "Чтобы бороться с гиподинамией, купите фитнес-часы, которые можно носить в школе. ➔ Нет"
+    ],
+    "options_en": [
+      "To avoid eye strain, you should blink frequently and take \"20-20-20\" breaks. ➔ Yes",
+      "To avoid sleep disturbances, charge your phone before bed in a place you cannot reach but can still hear. ➔ Yes",
+      "To avoid social media addiction, distribute your time between at least 3-5 sites. ➔ No",
+      "To fight physical inactivity, buy a fitness watch that can be worn at school. ➔ No"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• '20-20-20' qoidasi to'g'ri (Ha). Telefonni karavotdan uzoqda zaryadlash uyqu uchun to'g'ri (Ha). Tarmoqlarga bo'linish qaramlikni davolamaydi (Yo'q). Shunchaki soat sotib olish gipodinamiyani yo'qotmaydi (Yo'q)."
+  },
+  {
+    "level": 2,
+    "id": 361820,
+    "q_ru": "Какие два примера кошачьей ловли? (Выберите два)",
+    "q_en": "What are two examples of catfishing? (Choose two)",
+    "q_uz": "Ketfishing (Catfishing — internetda soxta shaxs yaratish)ga qaysi holatlar misol bo'ladi? (Ikkita javobni tanlang)",
+    "options_ru": [
+      "Распространение шуток и смешных мемов в Интернете.",
+      "Подстрекательство пользователей к спорам в социальных сетях.",
+      "Выдавать себя за другого человека в социальных сетях.",
+      "Создание фиктивного профиля на сайте знакомств."
+    ],
+    "options_en": [
+      "Spreading jokes and funny memes on the Internet.",
+      "Inciting users to argue on social networks.",
+      "Posing as another person on social networks.",
+      "Creating a fake profile on a dating site."
+    ],
+    "answer_idx": [2, 3],
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• 'Catfishing' (GMetrix tarjimasida 'Кошачья ловля') — bu tarmoqda yoki tanishuv saytlarida feyk profil ochib, o'zini umuman boshqa odam qilib ko'rsatish orqali aldashdir."
+  },
+  {
+    "level": 2,
+    "id": 361821,
+    "q_ru": "Ваши друзья дразнят вас. Они говорят, что у вас есть все симптомы FOMO. Для каждого утверждения о FOMO выберите \"Да\", если утверждение верно, или \"Нет\", если оно ложно.",
+    "q_en": "Your friends tease you. They say you have all the symptoms of FOMO. For each statement about FOMO, select Yes if it is true or No if it is false.",
+    "q_uz": "FOMO (orqada qolish qo'rquvi) sindromi haqidagi mulohazalarga Ha (Да) yoki Yo'q (Нет) javobini tanlang.",
+    "options_ru": [
+      "FOMO - это расстройство, вызванное ношением маски на лице во время использования социальных сетей. ➔ Нет",
+      "FOMO - это \"Чувство, что вы не успеваете\". ➔ Да",
+      "Хотя FOMO не считается психическим расстройством, оно вызвано вполне реальным набором эмоций и имеет реальные последствия. ➔ Да"
+    ],
+    "options_en": [
+      "FOMO is a disorder caused by wearing a face mask while using social media. ➔ No",
+      "FOMO is a \"Feeling of missing out\". ➔ Yes",
+      "Although FOMO is not considered a mental disorder, it is caused by a very real set of emotions and has real consequences. ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• FOMO — tarmoqdagi qiziqarli voqealardan uzilib qolish qo'rquvi (Ha) va u real emotsional oqibatlarga ega (Ha). Tibbiy niqob taqish haqidagi gap esa xato (Yo'q)."
+  },
+  {
+    "level": 2,
+    "id": 361825,
+    "q_ru": "Объясните, когда блокировка доступа к камере уместна и необходима. Для каждого утверждения выберите \"Да\", если оно уместно, или \"Нет\", если нет.",
+    "q_en": "Explain when blocking camera access is appropriate and necessary. For each statement, select Yes if it is appropriate, or No if it is not.",
+    "q_uz": "Veb-kameraga kirishni bloklash qachon o'rinli va zarurligini aniqlang. O'rinli bo'lsa 'Ha' (Да), aks holda 'Yo'q' (Нет) deb belgilang.",
+    "options_ru": [
+      "Вы являетесь активным участником онлайн-курса. ➔ Нет",
+      "Вы пассивно смотрите онлайн-лекцию вместе с сотнями других зрителей. ➔ Да",
+      "Если приложение запрашивает доступ к вашей камере, но не имеет на то оснований. ➔ Да"
+    ],
+    "options_en": [
+      "You are an active participant in an online course. ➔ No",
+      "You are passively watching an online lecture with hundreds of other viewers. ➔ Yes",
+      "If an app requests access to your camera but has no reason to. ➔ Yes"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh:\n• Onlayn darsda faol qatnashganda kamera kerak (Yo'q). Katta vebinarda shunchaki passiv tinglovchi bo'lganda kamerani yopish ma'qul (Ha). Shubhali ilova sababsiz kamera so'rasa, uni bloklash zarur (Ha)."
+  },
+  {
+    "level": 2,
+    "id": 361826,
+    "q_ru": "Определите параметры файла защиты паролем. Для каждого утверждения выберите 'Да', если оно является параметром, или 'Нет', если не является.",
+    "q_en": "Determine the password protect file options. For each statement, select Yes if it is an option, or No if it is not.",
+    "q_uz": "Fayllarni parol bilan himoyalash parametrlari bo'yicha to'g'ri mulohazalarni aniqlang.",
+    "options_ru": [
+      "В Microsoft Excel есть возможность защитить паролем только разделы рабочей книги или всю рабочую книгу. ➔ Да",
+      "В Adobe можно защитить паролем открытие документа .pdf. ➔ Да",
+      "В Windows 10 и более поздних версиях вы можете защитить отдельные файлы и папки паролем. ➔ Нет"
+    ],
+    "options_en": [
+      "In Microsoft Excel, it is possible to password protect only sections of a workbook or the entire workbook. ➔ Yes",
+      "In Adobe, it is possible to password protect opening a .pdf document. ➔ Yes",
+      "In Windows 10 and later, you can password protect individual files and folders. ➔ No"
+    ],
+    "answer_idx": 0,
+    "explanation": "💡 Izoh (GMetrix Logikasi):\n• Excelda varaqlarni yoki butun kitobni qulflash mumkin (Ha). Adobe'da PDF ochilishiga parol qo'ysa bo'ladi (Ha). Windows tizimining o'zida (provodnik orqali) alohida fayl yoki papkaga oddiy kirish parolini o'rnatib bo'lmaydi (Yo'q)."
+  }
+]
