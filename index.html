@@ -106,11 +106,24 @@
 
     function verifyKey() {
         const inputKey = document.getElementById('activation-key').value.trim();
-        if (inputKey === "PRO-TEACHER-IC3-MASTER" || inputKey === "IC3-JUNE-2026") {
+        
+        // 1. Вытаскиваем 4 цифры из сгенерированного ID устройства (например, из "IC3-7182-UZ" заберем 7182)
+        const match = generatedID.match(/\d+/);
+        if (!match) {
+            alert("Ошибка определения ID устройства!");
+            return;
+        }
+        const deviceDigits = parseInt(match[0], 10);
+        
+        // 2. Вычисляем персональный математический ключ под это устройство
+        const correctPersonalKey = (deviceDigits * 3) + 2026;
+        
+        // 3. Проверяем: подошел ли личный ключ ИЛИ секретный мастер-код преподавателя
+        if (inputKey === correctPersonalKey.toString() || inputKey === "MASTER-SUPER-ADMIN-2026") {
             document.getElementById('activation-screen').classList.remove('active');
             document.getElementById('menu-screen').classList.add('active');
         } else {
-            alert("🔒 Неверный код активации! / Kod noto'g'ri!");
+            alert("🔒 Доступ запрещен! Этот ключ не подходит для вашего устройства. / Сhizning ID uchun kod noto'g'ri!");
         }
     }
 
