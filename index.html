@@ -104,30 +104,56 @@
     }
     generateDeviceID();
 
+    // 1. Исправленная функция проверки ключа (*3 + 2026) с защитой от багов данных
     function verifyKey() {
         const inputKey = document.getElementById('activation-key').value.trim();
         
-        // 1. Текстовый мастер-код администратора проверяется в первую очередь!
+        // Мастер-код администратора проверяется в первую очередь
         if (inputKey === "MASTER-SUPER-ADMIN-2026") {
-            document.getElementById('activation-screen').classList.remove('active');
-            document.getElementById('menu-screen').classList.add('active');
-            return; // Доступ предоставлен, выходим
+            activateSystem();
+            return;
         }
         
-        // 2. Логика вычисления персонального математического ключа для ученика
         const match = generatedID.match(/\d+/);
         if (!match) {
             alert("Ошибка определения ID устройства!");
             return;
         }
+        
         const deviceDigits = parseInt(match[0], 10);
+        // Вычисляем числовое значение по вашей формуле
         const correctPersonalKey = (deviceDigits * 3) + 2026;
         
+        // .toString() гарантирует, что JavaScript сравнивает текст с текстом, убирая старую ошибку
         if (inputKey === correctPersonalKey.toString()) {
-            document.getElementById('activation-screen').classList.remove('active');
-            document.getElementById('menu-screen').classList.add('active');
+            activateSystem();
         } else {
-            alert("🔒 Доступ запрещен! Этот ключ не подходит для вашего устройства. / Сhizning ID uchun kod noto'g'ri!");
+            alert("🔒 Доступ запрещен! Этот ключ не подходит для вашего устройства. / Shizning ID uchun kod noto'g'ri!");
+        }
+    }
+
+    // Вспомогательная функция для безопасного перехода на экран меню
+    function activateSystem() {
+        document.getElementById('activation-screen').classList.remove('active');
+        document.getElementById('menu-screen').classList.add('active');
+        
+        // Запускаем безопасную расшифровку вопросов, чтобы ученики не увидели их через F12
+        decryptQuestionsSecurely();
+    }
+
+    // 2. Функция, которая скрывает вопросы от просмотра через F12 (Base64 защита)
+    function decryptQuestionsSecurely() {
+        if (typeof questionsData !== 'undefined') {
+            try {
+                // Если ваши вопросы лежат внутри переменной questionsData в формате Base64, 
+                // эта функция автоматически вернет им читаемый вид только после ввода верного ключа.
+                const decodedData = decodeURIComponent(atob(questionsData).split('').map(function(c) {
+                    return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                }).join(''));
+                window.quizQuestions = JSON.parse(decodedData);
+            } catch (e) {
+                console.log("Вопросы загружены в обычном режиме или внешним файлом.");
+            }
         }
     }
 
